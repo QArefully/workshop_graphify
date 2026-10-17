@@ -1,270 +1,293 @@
-# Graph Report - workshop_graphify  (2026-10-13)
+# Graph Report - workshop_graphify  (2026-10-17)
 
 ## Corpus Check
-- Large corpus: 1019 files · ~679,498 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder.
+- 1020 files · ~679,928 words
+- Verdict: corpus is large enough that graph structure adds value.
+- Unclassified: 7 file(s) not represented in the graph (top: (none) 6, .css 1)
 
 ## Summary
-- 7426 nodes · 21557 edges · 261 communities (241 shown, 20 thin omitted)
+- 7433 nodes · 21562 edges · 277 communities (253 shown, 24 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 350 edges (avg confidence: 0.85)
-- Token cost: 227,311 input · 0 output
+- Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `4c90abb2`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
-- API Audit & Unit of Work
-- API DB Test Harness
-- Web App Shell & Routing
-- Web API Client Layer
-- Web Cart/Auth/Country Contexts
-- Account Page & Localisation
-- API Service Composition
-- Catalog UI & Product Cards
-- Seeded App Integration Fixtures
-- DB Migrations
-- Web Integration Journeys
-- Order Detail Pages
-- Trade Credit Contracts
-- Checkout & Payment Services
-- Product/Cart/Pricing Contracts
-- Fastify Routes & Auth Plugin
-- Cart Sheet & UI Primitives
-- Payments & Approvals Contracts
-- Company Accounts Contracts
-- Custom Blend Contracts
-- Catalog Product Journeys
-- API Service Interfaces
-- Custom Blend Resolver
-- Custom Blend Page UI
-- Help Content Registry
-- Auth, Reset & Deletion
-- Custom Blend Pricing Rules
-- Playwright CLI Skill (.claude)
-- Admin Credit & Invoices
-- Public Errors & Bundles Contracts
-- Trade Credit Rules
-- Order Contracts
-- Sessions & Data Export
-- Company & Approval Services
-- Inventory Service
-- Product Page UI
-- App Bootstrap & Clock
-- Standing Order Service
-- Trade Profile Sections
-- Jobs & Notifications Contracts
-- Audit Event Builder
-- Cart Repository
-- Credit Account Service
-- Authenticated Account Routes
-- Bundles & Clearance
-- Quick Order Rules
-- Checkout Page Tests
-- Localisation Message Definitions
-- Web Cart Hook & Storage
-- Localisation Package Exports
-- Reorder Service
-- Feature Flags
-- Checkout State Reducer
-- Trade Credit Seed
-- Variant Admin
-- Translate & Lifecycle Messages
-- User Admin
-- Pricing & Bulk Add Rules
-- Checkout Flow & Validation
-- Delivery Slot Rules
-- Returns Service
-- Repo README & Architecture
-- Country Profiles Contracts
-- Review Contracts
-- Saved List Contracts
-- Saved List Service
-- Order Repository Types
-- Invoice Service
-- Checkout Copy & Promo Quote
-- Product Comparison Selection
-- DB Seed Scenarios
-- Product Reviews Hook
-- Quick Order Presentation
-- Admin Products & Promos Contracts
-- Mailbox Contracts
-- Commerce Message Catalogs
-- API Error Localisation
-- Admin Review Moderation UI
-- Order Service & Lifecycle
-- Custom Blend State
-- Reorder Presentation
-- Localisation Lint Script
-- Audit Query
-- Order Admin Routes Tests
-- Credit Account Repository
-- Saved Lists Presentation
-- show-context.py Tool
-- Reorder & Standing Order Contracts
-- Playwright Media & Mocking
-- Standing Orders Page
-- Back-in-Stock Context
-- Migration 037 Invoice Mailbox
-- Catalog SQL Query
-- Checkout Quote Accounting
-- Admin Refunds
-- Catalog Validation
-- Migration 038 Payment Identity
-- Product Admin Service
-- Product Service & Comparison
-- shadcn Components Config
-- E2E Page Objects
-- Catalog Category Data
-- Returns Contracts
-- Migration 036 Credit Invoices
-- Promo Service
-- Review Rules
-- Reorder Route Tests
-- Integration Test Runner
-- Webhooks & Inventory Contracts
-- Inventory Repository
-- Packaging Spec Resolver
-- Number Formatting
-- Async Content Copy
-- Company Account Routes
-- Invoice Repository Interface
-- Order Admin Service
-- Trade Credit E2E Tests
-- Web Package Deps
-- Packaging Artwork SVGs
-- Root npm Scripts
-- Trade Account Services
-- Migration 034 Order Receipt
-- Powder Catalog Seed
-- Review Service
-- Invoice Repository
-- Promo Admin Service
-- Review Repository Interface
-- Payment Submission Hook
-- Custom Blend Evaluation Hook
-- Catalog Model Types
-- Saved List Repository
-- Credit Hold Repository
-- Custom Blend Page Tests
-- Catalog Bundles & Index
-- Date Formatting
-- Base TS Config
-- Migration 035 Trade Credit
-- Return Repository
-- Product Media Packaging
-- Standing Orders Presentation
-- Quick Order Contracts
-- Product Repository
-- Product Admin Repository
-- Country Availability Rules
-- Promo Admin Repository
-- Credit Exposure Math
-- Order Routes & Invoices
-- Web UI Dependencies
-- Catalog Query Params
-- Catalog Package Manifest
-- Test Profiling Script
-- Playwright Test Workflow (.agents)
-- Workshop E2E Planning Prompt
-- API Package Manifest
-- Product Similarity
-- Review Repository
-- Mailbox Page
-- Root Package & ESLint
-- Contracts Package Manifest
-- Localisation Lint Visitors
-- Custom Blend Journey Tests
-- Custom Blend Order Tests
-- Packaging Artwork Tests
-- Money Formatting
-- E2E README & Tooling Rules
-- Job Repository
-- Order Approval Routes
-- Admin Product Routes
-- Web Dev Dependencies
-- Help Policy Messages
-- Catalog Specifications
-- Promo Repository
-- Admin Promo Routes
-- Web TS Config
-- E2E TS Config
-- Session Repository
-- Credit Expiry & Error Mapping
-- API TS Config
-- Packaging Palettes
-- Trade Field Validation
-- Contracts Export Map
-- Workshop Env Skill
-- API npm Scripts
-- Checkout Finalizer
-- Company Invite Repository
-- Password Reset Repository
-- Admin Variant Routes
-- Root Dev Dependencies
-- Contracts Test TS Config
-- API Runtime Deps
-- Approval Repository
-- Nav Items
-- Translation Surface Test
-- Vite & Vitest Config
-- Catalog TS Config
-- Contracts TS Config
-- Localisation TS Config
-- Localisation ESLint TS Config
-- Company Accounts Seed
-- Company Membership Repository
-- Custom Blend Routes
-- API Test TS Config
-- Web npm Scripts
-- Custom Blend Eval Tests
-- Scripts ESLint TS Config
-- Playwright Storage State
-- Return Scenarios Seed
-- Review Integration Tests
-- Checkout Quote Tests
-- Review Query Inputs
-- Cart Routes
-- Lint Fixture: Raw Route Error
-- Web Trade Credit API
-- Packaging Artwork Types
-- Back-in-Stock Seed
-- Favicon & Brand
-- Lint Fixture: Display Intl
-- Contracts Export ./admin-orders-list
-- Contracts Export ./admin-products
-- Contracts Export ./admin-promos
-- Contracts Export ./admin-refunds
-- Contracts Export ./admin-users
-- Contracts Export ./admin-variants
-- Contracts Export ./audit
-- Contracts Export ./auth
-- Contracts Export ./back-in-stock
-- Contracts Export ./bundles
-- Contracts Export ./cart
-- Contracts Export ./common
-- Contracts Export ./company-accounts
-- Contracts Export ./country
-- Contracts Export ./country-profiles
-- Contracts Export ./delivery
-- Contracts Export ./feature-flags
-- Contracts Export ./inventory
-- Contracts Export ./jobs
-- Contracts Export ./mailbox
-- Contracts Export ./notifications
-- Contracts Export ./order-approvals
-- Contracts Export ./orders
-- Contracts Export ./payments
-- Contracts Export ./pricing
-- Contracts Export ./products
-- Contracts Export ./promos
-- Contracts Export ./public-errors
-- Contracts Export ./quick-order
-- Contracts Export ./reorder
-- Contracts Export ./returns
-- Contracts Export ./reviews
-- Contracts Export ./saved-lists
-- Contracts Export ./standing-orders
-- Contracts Export ./trade-account
-- Contracts Export ./trade-credit
-- Contracts Export ./webhooks
-- Lint Fixture: Presentation Map
-- Windows URL Escaping
+- auditService.ts
+- ref_node_assert
+- LoadingSpinner
+- fetchWithResponseSchema
+- useAuth
+- BillingEntitiesSection.tsx
+- createAppServices
+- useLocalisation
+- ref_shop_contracts
+- migrations/index.ts
+- LocaleProvider
+- OrderPages.test.tsx
+- contracts/src/index.ts
+- checkoutService.ts
+- src/products.ts
+- app.ts
+- BlendSummaryAside.tsx
+- src/payments.ts
+- accountDepth.ts
+- src/customBlends.ts
+- ProductPage.tsx
+- AuditContext
+- customBlendResolver.ts
+- CustomBlendPage.tsx
+- helpContentRegistry.ts
+- deletion.integration.test.ts
+- customBlendRules.ts
+- playwright-cli Skill
+- routes/adminCredit.ts
+- publicErrors.ts
+- tradeCreditRules.ts
+- src/orders.ts
+- plugins/auth.ts
+- companyService.ts
+- inventoryService.ts
+- ComparisonPage.tsx
+- checkoutTypes.ts
+- standingOrderService.ts
+- useTradeProfile.ts
+- jobs.ts
+- auditEvent.ts
+- cartService.ts
+- creditAccountService.ts
+- sendPublicError
+- bundleService.ts
+- quickOrderRules.ts
+- CheckoutPage.test-fixtures.tsx
+- defineMessages.ts
+- useCart.ts
+- localisation/package.json
+- reorderRules.ts
+- featureFlagService.ts
+- checkoutState.ts
+- tradeCreditSeed.ts
+- variantAdminService.ts
+- translate
+- userAdminService.ts
+- cartBulkAddRules.ts
+- useCheckoutFlow.ts
+- deliverySlotRules.ts
+- returnService.ts
+- QArefully Materials Exchange README
+- countryProfiles/index.ts
+- src/reviews.ts
+- src/savedLists.ts
+- savedListRules.ts
+- OrderRepository
+- invoiceService.ts
+- checkoutCopy.ts
+- ComparisonSelectionContext.tsx
+- seed.ts
+- vitest
+- quickOrderPresentation.ts
+- src/common.ts
+- src/mailbox.ts
+- localisation.test.ts
+- apiErrors.ts
+- react-router-dom
+- orders/orderService.ts
+- cn
+- reorderPresentation.ts
+- check-localisation-core.mjs
+- UnitOfWork
+- orderAdminRepository.ts
+- CreditAccountRepository
+- savedListsPresentation.ts
+- show-context.py
+- src/reorder.ts
+- playwright-cli Skill
+- StandingOrdersPage.tsx
+- CartSheet.test.tsx
+- 037_invoice_mailbox.ts
+- better-sqlite3
+- checkoutQuote.ts
+- adminRefundService.ts
+- validateCatalog.ts
+- 038_payment_user_identity.ts
+- productAdminService.ts
+- productService.ts
+- components.json
+- CatalogPage
+- catalog.ts
+- src/returns.ts
+- 036_credit_invoices.ts
+- fastify
+- reviewRules.ts
+- orders/orderRepository.ts
+- run-integration-tests.ts
+- backInStockService.ts
+- InventoryRepository
+- packagingSpec.ts
+- repeatBuying.ts
+- asyncContent.ts
+- requireAdmin
+- InvoiceRepository
+- orderAdminService.ts
+- tradeCreditEndToEnd.integration.test.ts
+- web/package.json
+- svgText.ts
+- scripts
+- TradeAccountResult
+- 034_mailbox_order_receipt.ts
+- @shop/catalog
+- reviewService.ts
+- invoiceRepository.ts
+- promoAdminService.ts
+- ReviewRepository
+- usePaymentSubmission.ts
+- CustomBlendPage.test.tsx
+- model.ts
+- SavedListRepository
+- creditHoldRepository.ts
+- mappers/product.ts
+- catalog.test.ts
+- formatDate.ts
+- compilerOptions
+- 035_trade_credit_accounts_and_intents.ts
+- NotificationsInboxJourney.integration.test.tsx
+- packagingSpec.test.ts
+- CatalogSidebar.tsx
+- src/quickOrder.ts
+- CatalogCountryExclusions
+- ProductRow
+- countryProfileService.ts
+- server.ts
+- CreditAccountService
+- routes/orders.ts
+- dependencies
+- src/catalogQuery.ts
+- catalog/package.json
+- profile-tests.mjs
+- Test Generation (plan / generate / heal)
+- QME-419 Custom-blend cart editing regression plan prompt
+- api/package.json
+- productSimilarity.ts
+- reviewRepository.ts
+- MailboxPage.tsx
+- package.json
+- contracts/package.json
+- visit
+- customBlendRulesJourney.integration.test.ts
+- customBlendOrder.integration.test.ts
+- PackagingArtwork.test.tsx
+- formatMoney.ts
+- End-to-end tests README
+- JobRepository
+- pricingRules.ts
+- routes/adminProducts.ts
+- devDependencies
+- helpPolicy.ts
+- catalog/catalogQuery.ts
+- PromoRepository
+- routes/adminPromos.ts
+- compilerOptions
+- compilerOptions
+- SessionRepository
+- customBlendService.ts
+- api/tsconfig.json
+- catalogPackagingPalettes.ts
+- routes/adminRefunds.ts
+- exports
+- workshop-env Skill
+- scripts
+- quickOrderService.ts
+- reorderService.ts
+- DeliverySiteRepository
+- routes/adminVariants.ts
+- devDependencies
+- compilerOptions
+- quickOrderRoutes.integration.test.ts
+- userAdminRepository.ts
+- navItems.ts
+- translationSurface.test.ts
+- vite.config.ts
+- catalog/tsconfig.json
+- contracts/tsconfig.json
+- localisation/tsconfig.json
+- localisation/tsconfig.eslint.json
+- companyAccountsSeed.ts
+- stockObserver.integration.test.ts
+- routes/customBlends.ts
+- api/test/tsconfig.json
+- scripts
+- mailboxRepository.ts
+- scripts/tsconfig.eslint.json
+- Storage Management
+- BillingEntityRepository
+- MixVisualization.tsx
+- NotificationRepository
+- countryStage2EndToEnd.integration.test.ts
+- routes/cart.ts
+- code
+- useCheckoutFlow.test.tsx
+- AdminCreditAccountDetailPage.test.tsx
+- 021_remove_powderizer.ts
+- Favicon (QArefully Materials Exchange)
+- display-intl.ts
+- ./admin-orders-list
+- ./admin-products
+- ./admin-promos
+- ./admin-refunds
+- ./admin-users
+- ./admin-variants
+- ./audit
+- ./auth
+- ./back-in-stock
+- ./bundles
+- ./cart
+- ./common
+- ./company-accounts
+- ./country
+- ./country-profiles
+- ./delivery
+- ./feature-flags
+- ./inventory
+- ./jobs
+- ./mailbox
+- ./notifications
+- ./order-approvals
+- ./orders
+- ./payments
+- ./pricing
+- ./products
+- ./promos
+- ./public-errors
+- ./quick-order
+- ./reorder
+- ./returns
+- ./reviews
+- ./saved-lists
+- ./standing-orders
+- ./trade-account
+- ./trade-credit
+- ./webhooks
+- presentation-map.ts
+- Windows URL & Escaping
+- 022_custom_blends.ts
+- 032_country_localisation.ts
+- routes/standingOrders.ts
+- AdminJobsPage.test.tsx
+- 023_trade_delivery_and_checkout_depth.ts
+- 024_pricing_promotions.ts
+- 025_account_self_service.ts
+- 027_admin_surface.ts
+- BuyAgainJourney.integration.test.tsx
+- useProductReviews.test.tsx
+- e2e/config.ts
+- 030_async_behavior.ts
+- 031_back_in_stock.ts
+- productAdminRepository.ts
+- Q: Why does better-sqlite3 connect API DB Test Harness to ~35 API communities - is the DB coupled directly into services rather than through repositories?
+- AGENTS.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `useLocalisation()` - 315 edges
@@ -294,1010 +317,1058 @@
 - None detected.
 
 ## Hyperedges (group relationships)
-- **Plan/Generate/Heal Playwright test authoring flow** — _agents_skills_playwright_cli_references_test_generation_plan_generate_heal, _agents_skills_playwright_cli_references_test_generation_seed_test, _agents_skills_playwright_cli_references_test_generation_spec_plan_file, _agents_skills_playwright_cli_references_playwright_tests_debug_cli_attach, _agents_skills_playwright_cli_references_test_generation_manual_assertions [EXTRACTED 1.00]
-- **Agent E2E test planning toolchain (CLI over MCP)** — workshop_prompt_qme_419, _opencode_agent_test_planner_browser_tooling_cli_only, e2e_readme_cli_not_mcp_rule, _agents_skills_playwright_cli_skill_playwright_cli_tool [INFERRED 0.75]
 - **Back-in-stock notification flow** — readme_back_in_stock_alerts, readme_admin_inventory_receipt_api, readme_job_queue, readme_dev_mailbox [EXTRACTED 1.00]
+- **Plan/Generate/Heal Playwright test authoring flow** — _agents_skills_playwright_cli_references_test_generation_plan_generate_heal, _agents_skills_playwright_cli_references_test_generation_seed_test, _agents_skills_playwright_cli_references_test_generation_spec_plan_file, _agents_skills_playwright_cli_references_playwright_tests_debug_cli_attach, _agents_skills_playwright_cli_references_test_generation_manual_assertions [EXTRACTED 1.00]
 - **Plan-Generate-Heal Test Authoring Flow** — _claude_skills_playwright_cli_references_test_generation_seed_test, _claude_skills_playwright_cli_references_test_generation_spec_plan_file, _claude_skills_playwright_cli_references_playwright_tests_debug_cli_attach, _claude_skills_playwright_cli_references_test_generation_generated_typescript_code, _claude_skills_playwright_cli_references_test_generation_manual_assertions, _claude_skills_playwright_cli_references_test_generation_spec_reconciliation [EXTRACTED 1.00]
-- **Visual Evidence Capture for PR Review** — _claude_skills_playwright_cli_skill_screenshot_command, _claude_skills_playwright_cli_references_video_recording_hero_script, _claude_skills_playwright_cli_references_tracing_trace_files, _claude_skills_playwright_cli_references_pr_attachments_gh_attach_flag, _claude_skills_playwright_cli_references_pr_attachments_ci_failure_artifacts [INFERRED 0.85]
 - **Workshop Environment Clean/Status/Restore Cycle** — _claude_skills_workshop_env_skill_clean_command, _claude_skills_workshop_env_skill_status_command, _claude_skills_workshop_env_skill_restore_command, _claude_skills_workshop_env_skill_backup_vault, _claude_skills_workshop_env_skill_manifest_json [EXTRACTED 1.00]
+- **Agent E2E test planning toolchain (CLI over MCP)** — workshop_prompt_qme_419, _opencode_agent_test_planner_browser_tooling_cli_only, e2e_readme_cli_not_mcp_rule, _agents_skills_playwright_cli_skill_playwright_cli_tool [INFERRED 0.75]
+- **Visual Evidence Capture for PR Review** — _claude_skills_playwright_cli_skill_screenshot_command, _claude_skills_playwright_cli_references_video_recording_hero_script, _claude_skills_playwright_cli_references_tracing_trace_files, _claude_skills_playwright_cli_references_pr_attachments_gh_attach_flag, _claude_skills_playwright_cli_references_pr_attachments_ci_failure_artifacts [INFERRED 0.85]
 
-## Communities (261 total, 20 thin omitted)
+## Communities (277 total, 24 thin omitted)
 
-### Community 0 - "API Audit & Unit of Work"
+### Community 0 - "auditService.ts"
+Cohesion: 0.04
+Nodes (59): AuditEventRecord, AuditEventPage, systemContext, BackInStockNotifyPayload, FAULT_KEYS, FaultSwitch, noFaults, JobHandler (+51 more)
+
+### Community 1 - "ref_node_assert"
 Cohesion: 0.02
-Nodes (123): UnitOfWork, AccountDeletionServiceDependencies, AuditEventRecord, AuditEventPage, AuditWriter, Clock, backInStockError(), backInStockOk() (+115 more)
+Nodes (92): migrateDatabase(), migrations, closeDatabase(), openDatabase(), OpenDatabaseOptions, resetDatabase(), db, seedDatabase() (+84 more)
 
-### Community 1 - "API DB Test Harness"
-Cohesion: 0.03
-Nodes (86): ApiConfig, loadConfig(), parseResetBaseUrl(), migrateDatabase(), migrations, closeDatabase(), openDatabase(), OpenDatabaseOptions (+78 more)
+### Community 2 - "LoadingSpinner"
+Cohesion: 0.04
+Nodes (126): getAdminCreditAccount(), getAdminCreditAccountDetail, getAdminCreditAccountList, getAdminCreditAccounts(), getAdminInvoice(), getAdminInvoiceDetail, getAdminInvoiceList, getAdminInvoices() (+118 more)
 
-### Community 2 - "Web App Shell & Routing"
-Cohesion: 0.03
-Nodes (151): createAdminFeatureFlag(), deleteAdminFeatureFlag(), getAdminFeatureFlags(), updateAdminFeatureFlag(), drainAdminJobs(), getAdminJob(), getAdminJobs(), retryAdminJob() (+143 more)
+### Community 3 - "fetchWithResponseSchema"
+Cohesion: 0.04
+Nodes (103): getAdminFeatureFlag(), getAdminOrder(), getAdminOrders(), createAdminRefund(), getAdminReviewQueue(), GetAdminReviewQueueParams, moderateAdminReview(), restoreAdminReview() (+95 more)
 
-### Community 3 - "Web API Client Layer"
-Cohesion: 0.03
-Nodes (134): token(), getAdminCreditAccount(), getAdminCreditAccountDetail, getAdminCreditAccountList, getAdminCreditAccounts(), getAdminInvoice(), getAdminInvoiceDetail, getAdminInvoiceList (+126 more)
+### Community 4 - "useAuth"
+Cohesion: 0.04
+Nodes (82): forgotPassword(), getMe(), login(), logout(), signup(), ApiErrorMeta, setActiveApiCountry(), AdminRoute() (+74 more)
 
-### Community 4 - "Web Cart/Auth/Country Contexts"
-Cohesion: 0.02
-Nodes (114): forgotPassword(), getMe(), login(), logout(), signup(), blendItem, CartLineItemCallbacks, CONFIG_KEY (+106 more)
+### Community 5 - "BillingEntitiesSection.tsx"
+Cohesion: 0.05
+Nodes (87): deleteAccount(), exportAccountData(), getAccountPreferences(), updateAccountPreferences(), AccountSessionsRequestOptions, listAccountSessions(), revokeAccountSession(), changePassword() (+79 more)
 
-### Community 5 - "Account Page & Localisation"
-Cohesion: 0.03
-Nodes (122): deleteAccount(), exportAccountData(), getAccountPreferences(), updateAccountPreferences(), AccountSessionsRequestOptions, listAccountSessions(), revokeAccountSession(), changePassword() (+114 more)
-
-### Community 6 - "API Service Composition"
+### Community 6 - "createAppServices"
 Cohesion: 0.06
-Nodes (113): createAppServices(), createUnitOfWork(), createAuditRepository(), createAuditWriter(), createBundleRepository(), createBundleService(), CartCountryVariantFact, CartLineRow (+105 more)
+Nodes (108): createAppServices(), createUnitOfWork(), AuditEventRow, createAuditRepository(), parseMetadata(), Predicate, toRecord(), createAuditWriter() (+100 more)
 
-### Community 7 - "Catalog UI & Product Cards"
-Cohesion: 0.03
-Nodes (98): addBundleToCart(), getBundles(), getProductComparison(), getSimilarProducts(), ProductShelf(), ProductShelfSkeleton(), Props, NotifyWhenAvailableButton() (+90 more)
-
-### Community 8 - "Seeded App Integration Fixtures"
-Cohesion: 0.02
-Nodes (69): buildApp(), deliverySlotRoutes(), mailboxRoutes(), paymentRoutes(), productsRoutes(), webhookRoutes(), login(), sessionCookie() (+61 more)
-
-### Community 9 - "DB Migrations"
-Cohesion: 0.03
-Nodes (60): Migration, validateMigrations(), initialMigration, catalogColumnsMigration, promoColumnsMigration, orderUserMigration, paymentReplayResponseMigration, passwordResetTokenDigestMigration (+52 more)
-
-### Community 10 - "Web Integration Journeys"
-Cohesion: 0.02
-Nodes (79): CountryBanner(), countryState, authState, cartState, countryState, savedLists, Layout(), state (+71 more)
-
-### Community 11 - "Order Detail Pages"
+### Community 7 - "useLocalisation"
 Cohesion: 0.04
-Nodes (94): cancelOrder(), getInvoiceForOrder, getOrder(), getOrderInvoice(), OrderRequestOptions, createReturnRequest(), fetchReturnOverview(), CardHeader() (+86 more)
+Nodes (113): CompanyRequestOptions, createCompany(), getCompany(), inviteMember(), listInvites(), listMembers(), revokeInvite(), revokeMember() (+105 more)
 
-### Community 12 - "Trade Credit Contracts"
-Cohesion: 0.03
-Nodes (104): CheckoutResult, PaymentFailureResponse, PersistedCheckoutQuoteV10, TradeCreditPaymentBody, AdminCreditAccountDetailResponse, AdminCreditAccountListQuery, AdminCreditAccountListResponse, AdminCreditAccountUpdateBody (+96 more)
-
-### Community 13 - "Checkout & Payment Services"
-Cohesion: 0.04
-Nodes (64): cartMoqMinimumQuantity(), CreditPreparationError, customBlendLinesRemainEligible(), failPreparation(), PaymentPreparationContext, positiveCompanyId(), preGatewayFailureCode(), Preparation (+56 more)
-
-### Community 14 - "Product/Cart/Pricing Contracts"
-Cohesion: 0.03
-Nodes (101): AdminProductVariantsParam, AdminVariant, AdminVariantClearance, AdminVariantIdParam, AdminVariantListResponse, CreateAdminVariantBody, SetAdminVariantClearanceBody, UpdateAdminVariantBody (+93 more)
-
-### Community 15 - "Fastify Routes & Auth Plugin"
-Cohesion: 0.05
-Nodes (76): AppContext, WebhookError, AuthenticatedUser, authPlugin(), fastify, FastifyRequest, getAuthenticatedUser(), requireAdmin() (+68 more)
-
-### Community 16 - "Cart Sheet & UI Primitives"
-Cohesion: 0.05
-Nodes (80): AccountMenu(), authState, Location(), renderMenu(), CartCustomBlendDetails(), CartLineItem(), CartLineItemProps, cartLineKey() (+72 more)
-
-### Community 17 - "Payments & Approvals Contracts"
-Cohesion: 0.03
-Nodes (91): AddressLine, AddressLocality, formatPostalAddress(), FORMATTED_ADDRESS_MAX_LENGTH, PostalAddress, Postcode, SignupBody, CartIdParam (+83 more)
-
-### Community 18 - "Company Accounts Contracts"
-Cohesion: 0.03
-Nodes (73): DataExportResponse, DeleteAccountBody, ExportedInvoice, ExportedInvoiceFacts, ExportedInvoiceLifecycleIntegrity, ExportedUserId, RevokeSessionParams, SessionListResponse (+65 more)
-
-### Community 19 - "Custom Blend Contracts"
-Cohesion: 0.03
-Nodes (81): RemoveFromCartBody, CreateCustomBlendBody, CUSTOM_BLEND_MAX_BASE_PERCENTAGE, CUSTOM_BLEND_MAX_INGREDIENT_PERCENTAGE, CUSTOM_BLEND_MAX_INGREDIENT_TOTAL, CUSTOM_BLEND_MAX_INGREDIENT_TOTAL_PERCENTAGE, CUSTOM_BLEND_MAX_INGREDIENTS, CUSTOM_BLEND_MAX_PERCENTAGE (+73 more)
-
-### Community 20 - "Catalog Product Journeys"
-Cohesion: 0.04
-Nodes (50): ComparisonItem, getBestsellers(), getCategories(), getProductFilterOptions(), getProducts(), GetProductsParams, getRelatedProducts(), RelaxedProduct (+42 more)
-
-### Community 21 - "API Service Interfaces"
-Cohesion: 0.04
-Nodes (16): AuditContext, AuthService, BackInStockResult, BackInStockService, CartService, VariantAdminService, CustomBlendService, OrderService (+8 more)
-
-### Community 22 - "Custom Blend Resolver"
-Cohesion: 0.05
-Nodes (52): createCustomBlendRepository(), CustomBlendCandidateQuery, CustomBlendFactRow, CustomBlendRepository, escapeLike(), normalizeCandidateQuery(), supportedMixingGroupPlaceholders, basePresentation() (+44 more)
-
-### Community 23 - "Custom Blend Page UI"
-Cohesion: 0.05
-Nodes (50): getCustomBlendBases(), BagArtwork(), BagArtworkProps, ProductLabel(), HeroSection(), heroVessels, resolveCatalogPackagingPalette(), PackagingArtwork() (+42 more)
-
-### Community 24 - "Help Content Registry"
+### Community 8 - "ref_shop_contracts"
 Cohesion: 0.06
-Nodes (58): renderFooter(), faqArticle, articleIds, ContentLink, getProductCommerceLinks(), getProductFactLinks(), helpArticles, helpContentRegistry (+50 more)
+Nodes (28): DEMO_RETURN_SCENARIO_KEYS, ReturnScenario, ReturnScenarioKey, SCENARIOS, cookie(), login(), cookie(), login() (+20 more)
 
-### Community 25 - "Auth, Reset & Deletion"
-Cohesion: 0.06
-Nodes (31): AccountDeletionRepository, createAccountDeletionRepository(), AccountDeletionResult, createAccountDeletionService(), isValidDisplayName(), isValidEmail(), isValidPassword(), normalizeDisplayName() (+23 more)
+### Community 9 - "migrations/index.ts"
+Cohesion: 0.05
+Nodes (30): Migration, validateMigrations(), initialMigration, catalogColumnsMigration, promoColumnsMigration, orderUserMigration, paymentReplayResponseMigration, passwordResetTokenDigestMigration (+22 more)
 
-### Community 26 - "Custom Blend Pricing Rules"
+### Community 10 - "LocaleProvider"
+Cohesion: 0.04
+Nodes (41): account, api, countryState, Location(), renderPage(), api, countryState, invoice (+33 more)
+
+### Community 11 - "OrderPages.test.tsx"
+Cohesion: 0.05
+Nodes (82): cancelOrder(), getInvoiceForOrder, getOrder(), getOrderInvoice(), getOrders(), OrderRequestOptions, createReturnRequest(), fetchReturnOverview() (+74 more)
+
+### Community 12 - "contracts/src/index.ts"
+Cohesion: 0.04
+Nodes (102): AdminCreditAccountDetailResponse, AdminCreditAccountListQuery, AdminCreditAccountListResponse, AdminCreditAccountUpdateBody, AdminCreditView, AdminInvoiceListQuery, AdminInvoiceListResponse, AdminInvoiceSettlementBody (+94 more)
+
+### Community 13 - "checkoutService.ts"
+Cohesion: 0.05
+Nodes (73): cartLinesUnblocked(), CreditPreparationError, customBlendLinesRemainEligible(), expirePreparedReservations(), failPreparation(), isPendingApprovalPayment(), mapCreditAccountError(), mapCreditFailure() (+65 more)
+
+### Community 14 - "src/products.ts"
+Cohesion: 0.03
+Nodes (98): AdminProductVariantsParam, AdminVariant, AdminVariantClearance, AdminVariantIdParam, AdminVariantListResponse, CreateAdminVariantBody, SetAdminVariantClearanceBody, UpdateAdminVariantBody (+90 more)
+
+### Community 15 - "app.ts"
+Cohesion: 0.10
+Nodes (35): AppContext, buildApp(), AuditReadService, WebhookError, accountDeletionRoutes(), accountExportRoutes(), adminReturnsRoutes(), auditContext() (+27 more)
+
+### Community 16 - "BlendSummaryAside.tsx"
+Cohesion: 0.08
+Nodes (47): CartCustomBlendDetails(), CartLineItem(), CartLineItemProps, cartLineKey(), editBlendHref(), mutationConfigKey(), CartSheet(), CardTitle() (+39 more)
+
+### Community 17 - "src/payments.ts"
+Cohesion: 0.02
+Nodes (100): ExportedInvoice, AddressLine, AddressLocality, formatPostalAddress(), FORMATTED_ADDRESS_MAX_LENGTH, PostalAddress, Postcode, CartIdParam (+92 more)
+
+### Community 18 - "accountDepth.ts"
+Cohesion: 0.04
+Nodes (51): DataExportResponse, DeleteAccountBody, ExportedInvoiceFacts, ExportedInvoiceLifecycleIntegrity, ExportedUserId, RevokeSessionParams, SessionListResponse, SessionShortId (+43 more)
+
+### Community 19 - "src/customBlends.ts"
+Cohesion: 0.03
+Nodes (81): CartLine, CreateCustomBlendBody, CUSTOM_BLEND_MAX_BASE_PERCENTAGE, CUSTOM_BLEND_MAX_INGREDIENT_PERCENTAGE, CUSTOM_BLEND_MAX_INGREDIENT_TOTAL, CUSTOM_BLEND_MAX_INGREDIENT_TOTAL_PERCENTAGE, CUSTOM_BLEND_MAX_INGREDIENTS, CUSTOM_BLEND_MAX_PERCENTAGE (+73 more)
+
+### Community 20 - "ProductPage.tsx"
+Cohesion: 0.05
+Nodes (53): ComparisonItem, getBestsellers(), getCategories(), getProduct(), getProductFilterOptions(), getProducts(), GetProductsParams, getRelatedProducts() (+45 more)
+
+### Community 21 - "AuditContext"
+Cohesion: 0.04
+Nodes (14): AuditContext, AuthService, CartService, CompanyResult, CompanyService, CustomBlendService, InvoiceSettlementInput, InvoiceVoidInput (+6 more)
+
+### Community 22 - "customBlendResolver.ts"
 Cohesion: 0.07
-Nodes (59): assertCustomBlendCompatibility(), assertCustomBlendPigmentCap(), calculateCustomBlendComponentPrice, calculateCustomBlendComponentPrices, calculateCustomBlendComponentPricing(), calculateCustomBlendComponentWeightGrams, calculateCustomBlendLinePricing(), calculateCustomBlendLineWeightGrams (+51 more)
+Nodes (44): createCustomBlendRepository(), CustomBlendCandidateQuery, CustomBlendFactRow, CustomBlendRepository, escapeLike(), normalizeCandidateQuery(), supportedMixingGroupPlaceholders, basePresentation() (+36 more)
 
-### Community 27 - "Playwright CLI Skill (.claude)"
+### Community 23 - "CustomBlendPage.tsx"
+Cohesion: 0.05
+Nodes (67): getCustomBlendBases(), BagArtwork(), BagArtworkPaint, BagArtworkProps, ProductLabel(), CategoryTiles(), CategoryTilesProps, TileArtwork (+59 more)
+
+### Community 24 - "helpContentRegistry.ts"
+Cohesion: 0.05
+Nodes (67): Footer(), footerGroups, renderFooter(), faqArticle, articleIds, ContentLink, getArticlesForGroup(), getHelpArticle() (+59 more)
+
+### Community 25 - "deletion.integration.test.ts"
+Cohesion: 0.05
+Nodes (33): AccountDeletionRepository, createAccountDeletionRepository(), AccountDeletionResult, AccountDeletionServiceDependencies, createAccountDeletionService(), isValidDisplayName(), isValidEmail(), isValidPassword() (+25 more)
+
+### Community 26 - "customBlendRules.ts"
+Cohesion: 0.06
+Nodes (60): assertCustomBlendCompatibility(), assertCustomBlendPigmentCap(), calculateCustomBlendComponentPrice, calculateCustomBlendComponentPrices, calculateCustomBlendComponentPricing(), calculateCustomBlendComponentWeightGrams, calculateCustomBlendLinePricing(), calculateCustomBlendLineWeightGrams (+52 more)
+
+### Community 27 - "playwright-cli Skill"
 Cohesion: 0.05
 Nodes (51): Inspecting Element Attributes, --debug=cli Test Debugging and attach, PLAYWRIGHT_HTML_OPEN=never, Running and Debugging Playwright Tests, Attaching Screenshots and Videos to Pull Requests, CI Failure Artifact Attachment, gh --attach Flag (gh 2.99+), Advanced Mocking via page.route in run-code (+43 more)
 
-### Community 28 - "Admin Credit & Invoices"
-Cohesion: 0.05
-Nodes (25): INVOICE_ERROR_CODES, InvoiceErrorCode, messages, InvoiceService, CreditAccountService, CreditHoldRow, adminCreditRoutes(), AdminCreditRouteServices (+17 more)
+### Community 28 - "routes/adminCredit.ts"
+Cohesion: 0.10
+Nodes (18): InvoiceService, adminCreditRoutes(), AdminCreditRouteServices, adminInvoiceListResponseSchema, auditContext(), flattenInvoiceSchema(), invoiceResponseSchema, listCreditQuery() (+10 more)
 
-### Community 29 - "Public Errors & Bundles Contracts"
+### Community 29 - "publicErrors.ts"
 Cohesion: 0.04
 Nodes (49): AddBundleToCartBody, BundleDescription, BundleKey, BundleMutationConflictResponse, BundleName, BundleUnavailableConflictResponse, BundleVariantDetail, CuratedBundle (+41 more)
 
-### Community 30 - "Trade Credit Rules"
+### Community 30 - "tradeCreditRules.ts"
 Cohesion: 0.08
 Nodes (51): availableCreditCents, calculateAvailableCredit(), calculateAvailableCreditCents, calculateCreditExposure(), calculateDueAt, calculateHeldExposure(), calculateInvoiceAmounts, calculateInvoiceNetCents() (+43 more)
 
-### Community 31 - "Order Contracts"
+### Community 31 - "src/orders.ts"
 Cohesion: 0.05
-Nodes (50): AdminOrderDetailAccountingIntegrity, AdminOrderDetailFields, AdminOrderDetailResponse, AdminOrderListItem, AdminOrderRefundPayment, AdminOrdersListResponse, UtcIsoInstant, AdminOrderListQuery (+42 more)
+Nodes (49): AdminOrderDetailAccountingIntegrity, AdminOrderDetailFields, AdminOrderDetailResponse, AdminOrderListItem, AdminOrderRefundPayment, AdminOrdersListResponse, UtcIsoInstant, AdminOrderListQuery (+41 more)
 
-### Community 32 - "Sessions & Data Export"
-Cohesion: 0.06
-Nodes (34): createDataExportService(), DataExportService, DataExportServiceDependencies, listExportOwnedInvoices(), toExportedInvoice(), toPublicUser(), SessionRecord, SessionUser (+26 more)
-
-### Community 33 - "Company & Approval Services"
-Cohesion: 0.06
-Nodes (29): companyError(), CompanyErrorCode, companyOk(), CompanyInviteRow, CompanyMembershipRow, CompanyRepository, CompanyRow, ActiveCompanyMembership (+21 more)
-
-### Community 34 - "Inventory Service"
-Cohesion: 0.08
-Nodes (25): BundleAvailabilityDependencies, CartAvailabilityDependencies, aggregateInventoryDemand(), isPreparedReservationExpired(), positiveInteger(), receiptFingerprint(), splitInventoryReservation(), allocateFromRows() (+17 more)
-
-### Community 35 - "Product Page UI"
-Cohesion: 0.05
-Nodes (28): getProduct(), ProductMedia(), packaging, buildRows(), ComparisonMatrix(), ComparisonMatrixProps, MatrixProduct, MatrixRow (+20 more)
-
-### Community 36 - "App Bootstrap & Clock"
+### Community 32 - "plugins/auth.ts"
 Cohesion: 0.07
-Nodes (25): AppDependencies, AppServices, DEFAULT_WEBHOOK_SECRET, AccountDeletionService, AuditReadService, Clock, BundleService, CheckoutService (+17 more)
+Nodes (39): AccountDeletionService, DataExportService, SessionUser, SessionAuditDetails, SessionRevokeResult, SessionService, SessionTokenSource, toSessionShortId() (+31 more)
 
-### Community 37 - "Standing Order Service"
+### Community 33 - "companyService.ts"
+Cohesion: 0.06
+Nodes (12): companyError(), CompanyErrorCode, companyOk(), CompanyInviteRepository, CompanyInviteRow, CompanyMembershipRepository, CompanyRepository, CompanyRow (+4 more)
+
+### Community 34 - "inventoryService.ts"
+Cohesion: 0.17
+Nodes (15): aggregateInventoryDemand(), isPreparedReservationExpired(), positiveInteger(), receiptFingerprint(), splitInventoryReservation(), allocateFromRows(), requirePositiveInteger(), InventoryDemand (+7 more)
+
+### Community 35 - "ComparisonPage.tsx"
+Cohesion: 0.09
+Nodes (29): getProductComparison(), buildRows(), ComparisonMatrix(), ComparisonMatrixProps, MatrixProduct, MatrixRow, ComparisonMessage(), ComparisonPage() (+21 more)
+
+### Community 36 - "checkoutTypes.ts"
+Cohesion: 0.04
+Nodes (27): AppServices, Clock, BundleAvailabilityDependencies, CartAvailabilityDependencies, CheckoutDependencies, CheckoutErrorCode, CheckoutService, CountryProfileService (+19 more)
+
+### Community 37 - "standingOrderService.ts"
 Cohesion: 0.08
 Nodes (15): standingOrderError(), StandingOrderErrorCode, standingOrderOk(), StandingOrderResult, StandingOrderRepository, StandingOrderRow, StandingOrderRunRow, countOutcomes() (+7 more)
 
-### Community 38 - "Trade Profile Sections"
+### Community 38 - "useTradeProfile.ts"
 Cohesion: 0.13
 Nodes (35): createBillingEntity(), createDeliverySite(), listBillingEntities(), listDeliverySites(), retireBillingEntity(), retireDeliverySite(), TradeAccountRequestOptions, updateBillingEntity() (+27 more)
 
-### Community 39 - "Jobs & Notifications Contracts"
+### Community 39 - "jobs.ts"
 Cohesion: 0.06
 Nodes (35): BackInStockStatus, BackInStockSubscription, BackInStockSubscriptionIdParam, BackInStockSubscriptionListResponse, CreateBackInStockSubscriptionBody, SafePositiveInteger, UtcIsoInstant, AdminJob (+27 more)
 
-### Community 40 - "Audit Event Builder"
-Cohesion: 0.13
-Nodes (38): approvalEntity(), asyncEntity(), auditActionSet, AuditActor, AuditEventValidationError, backInStockEntity(), buildAuditEvent(), cartEntity() (+30 more)
+### Community 40 - "auditEvent.ts"
+Cohesion: 0.06
+Nodes (62): approvalEntity(), asyncEntity(), AUDIT_ACTIONS, AuditAction, auditActionSet, AuditEntityType, AuditEventInput, AuditEventValidationError (+54 more)
 
-### Community 41 - "Cart Repository"
-Cohesion: 0.12
-Nodes (17): collectUnavailableComponentVariantIds(), CartRepository, addConfiguredItem(), addManyItems(), blockedInCountry(), cartLineRowToProductBase(), getCart(), hydrateCustomBlend() (+9 more)
+### Community 41 - "cartService.ts"
+Cohesion: 0.06
+Nodes (44): createBundleRepository(), collectUnavailableComponentVariantIds(), createBundleService(), CartLineRow, CartRepository, addConfiguredItem(), addItem(), addManyItems() (+36 more)
 
-### Community 42 - "Credit Account Service"
-Cohesion: 0.10
-Nodes (34): CreditAccountOrder, AcquireCreditHoldInput, canonicalize(), commandInput(), COUNTRIES, createCompanyCreditAccountService, createCreditAccountService(), createTradeCreditAccountService (+26 more)
+### Community 42 - "creditAccountService.ts"
+Cohesion: 0.06
+Nodes (49): AuditActor, CompanyMembershipRow, accountOrderColumns, accountOrderKeys, accountStates, createCompanyCreditAccountRepository, createTradeCreditAccountRepository, CreditAccountEventRow (+41 more)
 
-### Community 43 - "Authenticated Account Routes"
-Cohesion: 0.08
-Nodes (33): BackInStockErrorCode, requireAuth(), accountPreferencesRoutes(), auditContext(), accountSessionRoutes(), AccountSessionRouteServices, auditContext(), sendSessionError() (+25 more)
-
-### Community 44 - "Bundles & Clearance"
-Cohesion: 0.08
-Nodes (27): BundleComponentRow, BundleJoinRow, BundleRepository, BundleRow, BundleMutationResult, BundleUnavailable, isVisible(), now() (+19 more)
-
-### Community 45 - "Quick Order Rules"
+### Community 43 - "sendPublicError"
 Cohesion: 0.11
-Nodes (30): VariantWithProductRow, quickOrderError(), QuickOrderErrorCode, quickOrderOk(), QuickOrderResult, addedOutcome(), assembleQuickOrderOutcomes(), buildQuickOrderDemand() (+22 more)
+Nodes (30): requireCustomer(), auditContext(), REORDER_ERROR_STATUS, ReorderErrorResponse, reorderRoutes(), toTransportOutcome(), auditContext(), returnsRoutes() (+22 more)
 
-### Community 46 - "Checkout Page Tests"
-Cohesion: 0.14
-Nodes (28): DeliverySlotOptionsRequestOptions, getDeliverySlotOptions(), pay(), payCard(), PaymentRequestOptions, payTradeCredit(), validatePromo(), resolvedBlend (+20 more)
+### Community 44 - "bundleService.ts"
+Cohesion: 0.12
+Nodes (13): BundleComponentRow, BundleJoinRow, BundleRepository, BundleRow, BundleMutationResult, BundleService, BundleUnavailable, isVisible() (+5 more)
 
-### Community 47 - "Localisation Message Definitions"
-Cohesion: 0.08
-Nodes (26): CHECKOUT_MESSAGES, checkoutMessages, assertNonEmpty(), assertPlaceholderParity(), assertTemplate(), CountryMessageSet, defineMessages(), ExplicitPluralTemplate (+18 more)
-
-### Community 48 - "Web Cart Hook & Storage"
+### Community 45 - "quickOrderRules.ts"
 Cohesion: 0.13
-Nodes (30): isMissingCartError(), createCartClient(), createAndLoad(), loadOrCreate(), recoverMissingCart(), CartAction, CartClearTarget, CartErrorState (+22 more)
+Nodes (20): VariantWithProductRow, addedOutcome(), assembleQuickOrderOutcomes(), buildQuickOrderDemand(), canRoundUpMoq(), isNonNegativeSafeInteger(), isPositiveSafeInteger(), malformedLine() (+12 more)
 
-### Community 49 - "Localisation Package Exports"
+### Community 46 - "CheckoutPage.test-fixtures.tsx"
+Cohesion: 0.17
+Nodes (23): DeliverySlotOptionsRequestOptions, getDeliverySlotOptions(), resolvedBlend, activeCreditSummary, cart, cartContext, clearCart, completeCard() (+15 more)
+
+### Community 47 - "defineMessages.ts"
+Cohesion: 0.07
+Nodes (29): ADMIN_COMMERCE_MESSAGES, AdminCommerceMessageKey, adminCommerceMessages, CHECKOUT_MESSAGES, checkoutMessages, assertNonEmpty(), assertPlaceholderParity(), assertTemplate() (+21 more)
+
+### Community 48 - "useCart.ts"
+Cohesion: 0.08
+Nodes (36): body(), isMissingCartError(), CartLanding(), renderJourney(), createCartClient(), createAndLoad(), loadOrCreate(), recoverMissingCart() (+28 more)
+
+### Community 49 - "localisation/package.json"
 Cohesion: 0.06
 Nodes (35): import, types, dependencies, @shop/contracts, devDependencies, tsx, exports, ./defineMessages (+27 more)
 
-### Community 50 - "Reorder Service"
-Cohesion: 0.11
-Nodes (26): BulkAddOutcome, BulkAddSkipReason, BulkAddResult, reorderError(), ReorderErrorCode, reorderOk(), ReorderResult, assembleReorderOutcomes() (+18 more)
+### Community 50 - "reorderRules.ts"
+Cohesion: 0.14
+Nodes (17): BulkAddOutcome, BulkAddSkipReason, BulkAddResult, assembleReorderOutcomes(), countReorderOutcomes(), orderLineKey(), preSkipReasonFor(), REORDER_PRE_SKIP_REASONS (+9 more)
 
-### Community 51 - "Feature Flags"
+### Community 51 - "featureFlagService.ts"
+Cohesion: 0.09
+Nodes (21): createFeatureFlagRepository(), FeatureFlagCreate, FeatureFlagRecord, FeatureFlagRepository, FeatureFlagRow, FeatureFlagUpdate, toRecord(), FeatureFlagResolver (+13 more)
+
+### Community 52 - "checkoutState.ts"
 Cohesion: 0.10
-Nodes (20): createFeatureFlagRepository(), FeatureFlagCreate, FeatureFlagRecord, FeatureFlagRepository, FeatureFlagRow, FeatureFlagUpdate, toRecord(), FeatureFlagCreateInput (+12 more)
+Nodes (23): billingDraftIsEmpty(), BillingField, billingFields, CardField, CheckoutConflict, CheckoutPaymentMethod, checkoutReducer(), CheckoutState (+15 more)
 
-### Community 52 - "Checkout State Reducer"
-Cohesion: 0.07
-Nodes (33): billingDraftIsEmpty(), BillingField, billingFields, CardField, CheckoutBilling, CheckoutConflict, CheckoutDelivery, CheckoutPaymentMethod (+25 more)
-
-### Community 53 - "Trade Credit Seed"
+### Community 53 - "tradeCreditSeed.ts"
 Cohesion: 0.10
 Nodes (33): allocateSeedInvoiceNumber(), billingEntity(), CompanyRow, DEMO_TRADE_CREDIT_SCENARIO_KEYS, dueAt(), ensureCreditHold(), ensureInvoice(), ensureInvoiceMailbox() (+25 more)
 
-### Community 54 - "Variant Admin"
-Cohesion: 0.09
-Nodes (18): BackInStockVariantReader, VariantRow, ClearanceRecord, CreateVariantRecord, UpdateVariantRecord, VariantAdminRepository, assertExistingClearanceRemainsValid(), assertVariantValues() (+10 more)
+### Community 54 - "variantAdminService.ts"
+Cohesion: 0.08
+Nodes (17): BackInStockVariantReader, VariantRow, VariantAdminRepository, assertExistingClearanceRemainsValid(), assertVariantValues(), normalizeClearance(), normalizeIsoInstant(), validNonNegativeInteger() (+9 more)
 
-### Community 55 - "Translate & Lifecycle Messages"
+### Community 55 - "translate"
 Cohesion: 0.08
 Nodes (23): runEntityMutation(), runSiteMutation(), MessageCatalog, MessageTemplate, ORDER_LIFECYCLE_MESSAGES, OrderLifecycleMessageKey, orderLifecycleMessages, orderMessages (+15 more)
 
-### Community 56 - "User Admin"
-Cohesion: 0.10
-Nodes (16): AdminUserRecord, AdminUserRow, createUserAdminRepository(), toRecord(), UserAdminRepository, requireReason(), requireRole(), requireUser() (+8 more)
+### Community 56 - "userAdminService.ts"
+Cohesion: 0.24
+Nodes (7): AdminUserRecord, requireReason(), requireRole(), requireUser(), requireUserId(), UserAdminService, UserAdminServiceError
 
-### Community 57 - "Pricing & Bulk Add Rules"
-Cohesion: 0.15
-Nodes (27): aggregateBulkAddDemand(), BULK_ADD_SKIP_REASONS, BulkAddAvailability, BulkAddClassification, BulkAddGroup, BulkAddVariantRow, classifyBulkAddGroup(), ClassifyBulkAddGroupInput (+19 more)
-
-### Community 58 - "Checkout Flow & Validation"
-Cohesion: 0.14
-Nodes (27): getTradeCreditSummary(), checkRequiredText(), checkText(), validatePostalAddressDraft(), isEligibleForPromo(), createCartQuoteKey(), FieldErrors, selectAppliedPromo() (+19 more)
-
-### Community 59 - "Delivery Slot Rules"
-Cohesion: 0.11
-Nodes (22): DeliveryLine, quoteCartDelivery(), quoteDelivery(), addBusinessDays(), calculateLeadTime(), CalculateLeadTimeInput, deliveryAnchorDay(), isBusinessDay() (+14 more)
-
-### Community 60 - "Returns Service"
+### Community 57 - "cartBulkAddRules.ts"
 Cohesion: 0.17
-Nodes (24): ReturnDomainError, mapRefundSummary(), mapReturnRequest(), RefundRow, ReturnItemRow, ReturnRequestRow, ActiveReservation, allocateOrderDiscountByLine() (+16 more)
+Nodes (14): aggregateBulkAddDemand(), BULK_ADD_SKIP_REASONS, BulkAddAvailability, BulkAddClassification, BulkAddGroup, BulkAddVariantRow, classifyBulkAddGroup(), ClassifyBulkAddGroupInput (+6 more)
 
-### Community 61 - "Repo README & Architecture"
+### Community 58 - "useCheckoutFlow.ts"
+Cohesion: 0.15
+Nodes (23): isEligibleForPromo(), contactFields, deliveryStepFields, FieldErrors, paymentMethods, scheduleStepFields, selectAppliedPromo(), selectDiscountCents() (+15 more)
+
+### Community 59 - "deliverySlotRules.ts"
+Cohesion: 0.17
+Nodes (18): addBusinessDays(), calculateLeadTime(), CalculateLeadTimeInput, deliveryAnchorDay(), isBusinessDay(), isSlotBookable(), listBookableSlots(), ListBookableSlotsInput (+10 more)
+
+### Community 60 - "returnService.ts"
+Cohesion: 0.09
+Nodes (26): ReturnDomainError, createReturnRepository(), mapRefundSummary(), mapReturnRequest(), RefundRow, ReturnItemRow, ReturnRepository, ReturnRequestRow (+18 more)
+
+### Community 61 - "QArefully Materials Exchange README"
 Cohesion: 0.11
 Nodes (28): Web app index.html entry, global-setup.ts (waits for API), QArefully Materials Exchange README, Admin inventory receipt API, Admin lifecycle API (shipments, transitions, tracking), API server (Fastify, port 3001), Back-in-stock alerts, Clearance fixtures (+20 more)
 
-### Community 62 - "Country Profiles Contracts"
-Cohesion: 0.13
-Nodes (21): CountryCode, CN_COUNTRY_PROFILE, DE_COUNTRY_PROFILE, ES_COUNTRY_PROFILE, FR_COUNTRY_PROFILE, COUNTRY_PROFILES, countryProfile(), PL_COUNTRY_PROFILE (+13 more)
+### Community 62 - "countryProfiles/index.ts"
+Cohesion: 0.11
+Nodes (25): CountryCode, Country, DEFAULT_GUEST_COUNTRY, LEGACY_DATA_COUNTRY, SUPPORTED_COUNTRIES, CN_COUNTRY_PROFILE, DE_COUNTRY_PROFILE, ES_COUNTRY_PROFILE (+17 more)
 
-### Community 63 - "Review Contracts"
+### Community 63 - "src/reviews.ts"
 Cohesion: 0.08
 Nodes (29): AdminReviewModerationBody, AdminReviewModerationResponse, AdminReviewQueueItem, AdminReviewQueueQuery, AdminReviewQueueResponse, AdminReviewReport, CreateReviewBody, CreateReviewReportBody (+21 more)
 
-### Community 64 - "Saved List Contracts"
+### Community 64 - "src/savedLists.ts"
 Cohesion: 0.07
 Nodes (30): AddSavedListItemBody, AddSavedListToCartBody, CreateSavedListBody, RenameSavedListBody, SafeNonNegativeInteger, SafePositiveInteger, SaveCartAsListBody, SavedListAddToCartResponse (+22 more)
 
-### Community 65 - "Saved List Service"
-Cohesion: 0.13
-Nodes (26): BulkAddRequest, ReorderRequestPlan, savedListError(), SavedListErrorCode, savedListOk(), SavedListItemRow, SavedListRow, assembleSavedListCartOutcomes() (+18 more)
+### Community 65 - "savedListRules.ts"
+Cohesion: 0.15
+Nodes (19): BulkAddRequest, ReorderRequestPlan, assembleSavedListCartOutcomes(), buildSavedListCartPlan(), countSavedListOutcomes(), moqQuantity(), normalizeSavedListName(), safeNonNegativeInteger() (+11 more)
 
-### Community 66 - "Order Repository Types"
-Cohesion: 0.08
-Nodes (7): OrderAccessRepository, OrderRepository, CreateOrderLineVariantSnapshot, CreateOrderParams, LifecycleEventInput, OrderState, PersistedShipment
+### Community 66 - "OrderRepository"
+Cohesion: 0.06
+Nodes (8): AppDependencies, OrderAccessService, OrderAccessTokenSource, OrderAccessRepository, OrderRepository, PersistedShipment, ResetTokenSource, SeededAppFixtureOptions
 
-### Community 67 - "Invoice Service"
-Cohesion: 0.16
-Nodes (29): InvoiceDomainError, actorId(), assertDocumentMatches(), assertIssueReplayMatches(), canonicalFingerprint(), compareOptionalSnapshot(), createInvoiceService(), deriveInvoiceLines() (+21 more)
+### Community 67 - "invoiceService.ts"
+Cohesion: 0.18
+Nodes (27): InvoiceDomainError, actorId(), assertDocumentMatches(), assertIssueReplayMatches(), canonicalFingerprint(), compareOptionalSnapshot(), createInvoiceService(), deriveInvoiceLines() (+19 more)
 
-### Community 68 - "Checkout Copy & Promo Quote"
-Cohesion: 0.13
-Nodes (26): checkoutCodeToken(), checkoutErrorState(), CheckoutTranslate, localizeCheckoutError(), localizeLabel(), localizeTradeCreditError(), safeMessageParams(), tradeCreditPaymentErrorKeys (+18 more)
+### Community 68 - "checkoutCopy.ts"
+Cohesion: 0.14
+Nodes (23): validatePromo(), checkoutErrorState(), CheckoutTranslate, localizeCheckoutError(), localizeLabel(), safeMessageParams(), tradeCreditPaymentErrorKeys, translatePaymentError() (+15 more)
 
-### Community 69 - "Product Comparison Selection"
-Cohesion: 0.12
-Nodes (23): addComparisonId(), clearComparisonIds(), ComparisonDraftChange, comparisonPath(), ComparisonSelectionParseResult, MAX_COMPARISON_PRODUCTS, MIN_COMPARISON_PRODUCTS, normalizeComparisonDraftIds() (+15 more)
+### Community 69 - "ComparisonSelectionContext.tsx"
+Cohesion: 0.05
+Nodes (47): defaultFacts, defaultVariant, product(), renderCard(), authState, comparisonStorage, facts, Path() (+39 more)
 
-### Community 70 - "DB Seed Scenarios"
-Cohesion: 0.08
-Nodes (25): ReviewScenario, SCENARIOS, seedReviewScenarios(), FAVOURITE_SLUGS, findUserId(), MONTHLY_RESTOCK_ITEMS, seedSavedLists(), ADMIN_DEACTIVATED_PROMO (+17 more)
+### Community 70 - "seed.ts"
+Cohesion: 0.07
+Nodes (28): findUserId(), findVariantId(), seedBackInStock(), ReviewScenario, SCENARIOS, seedReviewScenarios(), FAVOURITE_SLUGS, findUserId() (+20 more)
 
-### Community 71 - "Product Reviews Hook"
-Cohesion: 0.12
-Nodes (23): addHelpfulVote(), createProductReview(), createReviewReport(), deleteReview(), getMyProductReview(), getProductReviews(), GetProductReviewsParams, removeHelpfulVote() (+15 more)
+### Community 71 - "vitest"
+Cohesion: 0.02
+Nodes (70): variant, authState, Location(), renderMenu(), authState, Location(), renderRoute(), renderPicker() (+62 more)
 
-### Community 72 - "Quick Order Presentation"
+### Community 72 - "quickOrderPresentation.ts"
 Cohesion: 0.16
 Nodes (25): Props, QuickOrderOutcomeList(), ResultBody(), added(), emptyCart, renderList(), skipped(), adjustedOutcomes() (+17 more)
 
-### Community 73 - "Admin Products & Promos Contracts"
-Cohesion: 0.08
-Nodes (27): AdminCatalogCategory, AdminMixingGroup, AdminProduct, AdminProductIdParam, AdminProductListQuery, AdminProductListResponse, ConsumptionClassification, CreateAdminProductBody (+19 more)
+### Community 73 - "src/common.ts"
+Cohesion: 0.04
+Nodes (60): AdminCatalogCategory, AdminMixingGroup, AdminProduct, AdminProductIdParam, AdminProductListQuery, AdminProductListResponse, ConsumptionClassification, CreateAdminProductBody (+52 more)
 
-### Community 74 - "Mailbox Contracts"
+### Community 74 - "src/mailbox.ts"
 Cohesion: 0.08
-Nodes (27): CompanyInviteMailboxTemplate, CompanyInviteMailboxTemplateParams, CompanyName, DataExportReadyMailboxTemplate, DataExportReadyMailboxTemplateParams, InvoiceIssuedMailboxDescriptor, InvoiceIssuedMailboxMessage, LegacyMailboxKind (+19 more)
+Nodes (26): CompanyInviteMailboxTemplate, CompanyInviteMailboxTemplateParams, CompanyName, DataExportReadyMailboxTemplate, DataExportReadyMailboxTemplateParams, InvoiceIssuedMailboxMessage, LegacyMailboxKind, LegacyMailboxMessage (+18 more)
 
-### Community 75 - "Commerce Message Catalogs"
-Cohesion: 0.08
-Nodes (14): ADMIN_COMMERCE_MESSAGES, AdminCommerceMessageKey, adminCommerceMessages, CART_MESSAGES, CartMessageKey, cartMessages, COMMON_MESSAGES, commonMessages (+6 more)
+### Community 75 - "localisation.test.ts"
+Cohesion: 0.10
+Nodes (11): CART_MESSAGES, CartMessageKey, cartMessages, COMMON_MESSAGES, commonMessages, COUNTRY_MESSAGES, countryMessages, countryNames (+3 more)
 
-### Community 76 - "API Error Localisation"
+### Community 76 - "apiErrors.ts"
 Cohesion: 0.09
 Nodes (24): ADMIN_CATALOG_MESSAGES, AdminCatalogMessageKey, AdminCatalogMessages, adminDateTimeInputValue(), localizeAdminError(), messageParams(), ADMIN_DIAGNOSTICS_MESSAGES, AdminDiagnosticsMessageKey (+16 more)
 
-### Community 77 - "Admin Review Moderation UI"
-Cohesion: 0.11
-Nodes (22): getAdminReviewQueue(), GetAdminReviewQueueParams, moderateAdminReview(), restoreAdminReview(), actionLabel(), AdminReviewModerationPage(), errorParams(), messageFor() (+14 more)
+### Community 77 - "react-router-dom"
+Cohesion: 0.05
+Nodes (49): token(), resetPassword(), addBundleToCart(), getBundles(), acceptInvite(), App(), ProtectedRoute(), AdminLayout() (+41 more)
 
-### Community 78 - "Order Service & Lifecycle"
-Cohesion: 0.15
-Nodes (19): messages, ORDER_ERROR_CODES, OrderDomainError, OrderErrorCode, aggregateOrderStatus(), AllocatedLine, AllocationShipment, assertCanCancel() (+11 more)
+### Community 78 - "orders/orderService.ts"
+Cohesion: 0.10
+Nodes (21): messages, ORDER_ERROR_CODES, OrderDomainError, OrderErrorCode, aggregateOrderStatus(), AllocatedLine, AllocationShipment, assertCanCancel() (+13 more)
 
-### Community 79 - "Custom Blend State"
-Cohesion: 0.13
-Nodes (24): balanceEvenlyPercentages(), clampedPercentageForIngredient(), CustomBlendEvent, CustomBlendMessage, CustomBlendMessageParam, customBlendReducer(), customBlendValidation, derivedBasePercentage() (+16 more)
+### Community 79 - "cn"
+Cohesion: 0.06
+Nodes (55): getSimilarProducts(), AccountMenu(), ProductShelf(), ProductShelfSkeleton(), Props, getBaseAvailability(), getIsOnSale(), getPriceRange() (+47 more)
 
-### Community 80 - "Reorder Presentation"
+### Community 80 - "reorderPresentation.ts"
 Cohesion: 0.17
 Nodes (21): Props, ResultBody(), added(), emptyCart, renderList(), skipped(), BUY_AGAIN_FAILURE_KEY, BUY_AGAIN_FAILURE_MESSAGE (+13 more)
 
-### Community 81 - "Localisation Lint Script"
-Cohesion: 0.13
-Nodes (25): addFinding(), checkRepository(), fixtureFiles(), IMMUTABLE_BRAND, inspectFile(), isCanonicalPath(), isImmutableBrand(), isReplyResponseReceiver() (+17 more)
+### Community 81 - "check-localisation-core.mjs"
+Cohesion: 0.14
+Nodes (24): addFinding(), checkRepository(), fixtureFiles(), IMMUTABLE_BRAND, inspectFile(), isCanonicalPath(), isImmutableBrand(), isTestFile() (+16 more)
 
-### Community 82 - "Audit Query"
-Cohesion: 0.12
-Nodes (16): AuditAction, AuditEntityType, AuditEventInput, BuiltAuditEvent, userContext, actionSet, AuditEventQueryInput, AuditQueryError (+8 more)
-
-### Community 83 - "Order Admin Routes Tests"
-Cohesion: 0.11
-Nodes (21): createOrderAdminRepository(), createOrderAdminService(), fixture(), AccountingRow, EventRow, hydrateOrderAccounting(), hydrateOrderCustomBlend(), hydrateOrderSlot() (+13 more)
-
-### Community 84 - "Credit Account Repository"
+### Community 82 - "UnitOfWork"
 Cohesion: 0.08
-Nodes (14): accountOrderColumns, accountOrderKeys, accountStates, createCompanyCreditAccountRepository, createTradeCreditAccountRepository, CreditAccountEventRow, CreditAccountListQuery, CreditAccountListRows (+6 more)
+Nodes (43): UnitOfWork, createDataExportService(), DataExportServiceDependencies, listExportOwnedInvoices(), toExportedInvoice(), AuditWriter, Clock, toPublicUser() (+35 more)
 
-### Community 85 - "Saved Lists Presentation"
+### Community 83 - "orderAdminRepository.ts"
+Cohesion: 0.39
+Nodes (6): AdminOrderRefundPayment, createOrderAdminRepository(), orderStatuses, createOrderAdminService(), fixture(), createOrderFixture()
+
+### Community 85 - "savedListsPresentation.ts"
 Cohesion: 0.18
 Nodes (21): ResultBody(), SavedListOutcomeList(), renderList(), response, countFormatter(), countItems(), defaultTranslate, resolve() (+13 more)
 
-### Community 86 - "show-context.py Tool"
+### Community 86 - "show-context.py"
 Cohesion: 0.17
 Nodes (14): clip(), cmd_growth(), cmd_list(), cmd_show(), find_slug_dir(), fmt(), is_message(), load() (+6 more)
 
-### Community 87 - "Reorder & Standing Order Contracts"
+### Community 87 - "src/reorder.ts"
 Cohesion: 0.09
 Nodes (23): CartLineConfigKey, ReorderLineOutcome, ReorderLineOutcomeFields, ReorderLineStatus, ReorderOutcomeStatusPair, ReorderRequestBody, ReorderResponse, ReorderSkipReason (+15 more)
 
-### Community 88 - "Playwright Media & Mocking"
+### Community 88 - "playwright-cli Skill"
 Cohesion: 0.11
 Nodes (23): Inspecting Element Attributes, eval-based element attribute inspection, Attaching Screenshots and Videos to Pull Requests, CI failure screenshot/video attachment, gh --attach flag (gh 2.99+), Request Mocking, Advanced mocking via run-code (page.route), route / unroute network mocking (+15 more)
 
-### Community 89 - "Standing Orders Page"
-Cohesion: 0.19
-Nodes (20): getSavedLists(), createStandingOrder(), deleteStandingOrder(), getStandingOrderRuns(), getStandingOrders(), path(), runStandingOrderNow(), updateStandingOrder() (+12 more)
+### Community 89 - "StandingOrdersPage.tsx"
+Cohesion: 0.13
+Nodes (30): getSavedLists(), createStandingOrder(), deleteStandingOrder(), getStandingOrderRuns(), getStandingOrders(), path(), runStandingOrderNow(), updateStandingOrder() (+22 more)
 
-### Community 90 - "Back-in-Stock Context"
-Cohesion: 0.11
-Nodes (19): authState, comparisonStorage, facts, Path(), product(), renderJourney(), soldOutVariant, BackInStockContext (+11 more)
+### Community 90 - "CartSheet.test.tsx"
+Cohesion: 0.06
+Nodes (31): blendItem, CartLineItemCallbacks, CONFIG_KEY, item, renderBlendLine(), renderGerman(), resolvedBlend, resolvedBlendItem (+23 more)
 
-### Community 91 - "Migration 037 Invoice Mailbox"
+### Community 91 - "037_invoice_mailbox.ts"
 Cohesion: 0.12
 Nodes (19): assertIndexCollisions(), columnNames(), ForeignKeyRow, hasCompletedSchema(), hasExpectedColumns(), hasExpectedDescriptorCheck(), hasExpectedForeignKeys(), hasExpectedIndex() (+11 more)
 
-### Community 92 - "Catalog SQL Query"
-Cohesion: 0.17
-Nodes (15): CatalogQueryError, CatalogSpecificationFilter, normalizeCatalogQuery(), NormalizedCatalogQuery, parseCatalogDate(), parseSpecification(), CatalogSpecificationKey, availableToSellSql (+7 more)
+### Community 92 - "better-sqlite3"
+Cohesion: 0.06
+Nodes (34): createBackInStockNotifyHandler(), payloadVariantId(), BackInStockVariantFacts, CartCountryVariantFact, normalizeCatalogQuery(), availableToSellSql, buildCatalogPredicate(), buildCountryExclusionPredicate() (+26 more)
 
-### Community 93 - "Checkout Quote Accounting"
-Cohesion: 0.15
-Nodes (21): AliasCandidate, assertMoney(), assertRate(), assertTerms(), CheckoutQuoteAccounting, CheckoutQuoteCheckout, CheckoutQuoteFacts, CreditTerms (+13 more)
+### Community 93 - "checkoutQuote.ts"
+Cohesion: 0.10
+Nodes (32): AliasCandidate, assertMoney(), assertRate(), assertTerms(), CheckoutQuoteAccounting, CheckoutQuoteCheckout, CheckoutQuoteFacts, createCheckoutQuote() (+24 more)
 
-### Community 94 - "Admin Refunds"
-Cohesion: 0.13
-Nodes (10): AdminRefundError, AdminRefundRecord, createAdminRefundService(), RefundablePayment, Row, fixture(), createRefundGateway(), RefundGateway (+2 more)
+### Community 94 - "adminRefundService.ts"
+Cohesion: 0.14
+Nodes (8): AdminRefundError, AdminRefundRecord, createAdminRefundService(), RefundablePayment, Row, RefundGateway, cookie(), login()
 
-### Community 95 - "Catalog Validation"
+### Community 95 - "validateCatalog.ts"
 Cohesion: 0.14
 Nodes (22): isNormalizedCatalogKey(), isUtcIsoInstant(), ALL_CANONICAL_IDS, ALLOWED_CONSUMPTION_CLASSIFICATIONS, ALLOWED_MIXING_GROUPS, assertUnique(), CANONICAL_IDS_LEGACY, CANONICAL_IDS_NEW (+14 more)
 
-### Community 96 - "Migration 038 Payment Identity"
+### Community 96 - "038_payment_user_identity.ts"
 Cohesion: 0.15
 Nodes (21): assertForeignKeysClean(), buyerIdentityExpression(), countRows(), explicitSchemaObjects(), ForeignKeyRow, hasCompletedSchema(), hasTable(), hasUserForeignKey() (+13 more)
 
-### Community 97 - "Product Admin Service"
-Cohesion: 0.18
-Nodes (18): createProductAdminRepository(), ProductAdminInsert, ProductAdminUpdate, writeColumns, assertCategory(), assertConsumptionClassification(), assertInteger(), assertMixingGroup() (+10 more)
+### Community 97 - "productAdminService.ts"
+Cohesion: 0.26
+Nodes (14): assertCategory(), assertConsumptionClassification(), assertInteger(), assertMixingGroup(), assertNullableInteger(), assertText(), catalogCategories, createProductAdminService() (+6 more)
 
-### Community 98 - "Product Service & Comparison"
-Cohesion: 0.16
-Nodes (9): buildComparisonItems(), ComparisonSelectionError, parseComparisonIds(), CustomerProductRow, ProductList, createProductService(), now(), ProductService (+1 more)
+### Community 98 - "productService.ts"
+Cohesion: 0.15
+Nodes (10): buildComparisonItems(), ComparisonSelectionError, parseComparisonIds(), CustomerProductRow, ProductList, createProductService(), now(), ProductReadDependencies (+2 more)
 
-### Community 99 - "shadcn Components Config"
+### Community 99 - "components.json"
 Cohesion: 0.09
 Nodes (21): aliases, components, hooks, lib, ui, utils, iconLibrary, menuAccent (+13 more)
 
-### Community 100 - "E2E Page Objects"
-Cohesion: 0.13
-Nodes (5): API_URL, BASE_URL, CatalogPage, HomePage, @playwright/test
+### Community 100 - "CatalogPage"
+Cohesion: 0.17
+Nodes (3): CatalogPage, HomePage, @playwright/test
 
-### Community 101 - "Catalog Category Data"
+### Community 101 - "catalog.ts"
 Cohesion: 0.19
 Nodes (15): CATALOG_ARTWORK_IDS, CATALOG_PRODUCTS, catalogProductById, catalogProductByImageSetId, catalogProductBySlug, bakingPantryProducts, drinksProducts, gardenOutdoorsProducts (+7 more)
 
-### Community 102 - "Returns Contracts"
+### Community 102 - "src/returns.ts"
 Cohesion: 0.16
 Nodes (20): AdminDecisionBody, AdminReceiveBody, AdminRefundBody, AdminReturnListQuery, AdminReturnListResponse, CreateReturnRequestBody, NonNegativeVersion, RefundSummary (+12 more)
 
-### Community 103 - "Migration 036 Credit Invoices"
+### Community 103 - "036_credit_invoices.ts"
 Cohesion: 0.15
 Nodes (17): countRows(), createInvoiceEvents(), createInvoices(), createInvoiceStates(), creditInvoicesMigration, explicitSchemaObjects(), ForeignKeyRow, hasColumn() (+9 more)
 
-### Community 104 - "Promo Service"
-Cohesion: 0.14
-Nodes (15): createCheckoutQuote(), resolvedLineUnitPrice(), quoteTotalBeforeReservation(), asValidPromo(), calculateDiscount(), createPromoService(), invalid(), PromoValidation (+7 more)
+### Community 104 - "fastify"
+Cohesion: 0.09
+Nodes (27): authPlugin(), countryContextPlugin(), fastify, FastifyRequest, supportedCountry(), adminUsersRoutes(), AdminUsersRouteServices, context() (+19 more)
 
-### Community 105 - "Review Rules"
+### Community 105 - "reviewRules.ts"
 Cohesion: 0.19
 Nodes (17): normalizeAdminReviewQueueQuery(), normalizeBoundedPositiveInteger(), NormalizedReviewListQuery, NormalizedReviewWrite, normalizeReviewListQuery(), normalizeReviewReport(), normalizeReviewWrite(), REVIEW_BODY_MAX_LENGTH (+9 more)
 
-### Community 106 - "Reorder Route Tests"
-Cohesion: 0.12
-Nodes (16): App, cookieValue(), createCart(), createPersistedBlend(), Fixture, line(), login(), Lot (+8 more)
+### Community 106 - "orders/orderRepository.ts"
+Cohesion: 0.06
+Nodes (37): AccountingRow, EventRow, hydrateOrderAccounting(), hydrateOrderCustomBlend(), hydrateOrderSlot(), hydrateOrderSnapshot(), isResolvedCustomBlendSnapshot(), isSafeNonNegativeInteger() (+29 more)
 
-### Community 107 - "Integration Test Runner"
+### Community 107 - "run-integration-tests.ts"
 Cohesion: 0.15
-Nodes (14): API_ROOT, buildChildTestArgs(), hasCliConcurrency(), hasExplicitTestPath(), OPTIONS_WITH_VALUES, readConcurrencyOverride(), assertForeignKeys(), ChildResult (+6 more)
+Nodes (13): API_ROOT, buildChildTestArgs(), hasCliConcurrency(), hasExplicitTestPath(), OPTIONS_WITH_VALUES, readConcurrencyOverride(), assertForeignKeys(), ChildResult (+5 more)
 
-### Community 108 - "Webhooks & Inventory Contracts"
-Cohesion: 0.12
-Nodes (17): Uuid, InventoryConflictCode, InventoryReceiptAllocation, InventoryReceiptBody, InventoryReceiptBodyLegacy, InventoryReceiptResponse, InventoryReceiptResponseLegacy, AdminCapturedWebhook (+9 more)
+### Community 108 - "backInStockService.ts"
+Cohesion: 0.09
+Nodes (12): backInStockError(), BackInStockErrorCode, backInStockOk(), BackInStockResult, BackInStockRepository, BackInStockRow, BackInStockSubscriptionRow, BACK_IN_STOCK_SUBSCRIPTION_LIMIT (+4 more)
 
-### Community 110 - "Packaging Spec Resolver"
+### Community 110 - "packagingSpec.ts"
 Cohesion: 0.15
 Nodes (19): CATEGORY_PREFIX, doseFromFacts(), gradeFromFacts(), hasCategoryFacts(), hazardFromFacts(), KegTone, lotFor(), mixingGroupLabel() (+11 more)
 
-### Community 111 - "Number Formatting"
+### Community 111 - "repeatBuying.ts"
 Cohesion: 0.16
 Nodes (17): assertNumber(), formatCount(), formatDecimal(), formatNumber(), formatter(), formatWeight(), formatWeightGrams(), NumberCountry (+9 more)
 
-### Community 112 - "Async Content Copy"
+### Community 112 - "asyncContent.ts"
 Cohesion: 0.15
 Nodes (19): ASYNC_CONTENT, ASYNC_CONTENT_MESSAGES, ASYNC_MESSAGES, asyncContent, AsyncContentCatalog, AsyncContentKey, asyncContentMessages, asyncMessages (+11 more)
 
-### Community 113 - "Company Account Routes"
-Cohesion: 0.17
-Nodes (7): CompanyResult, CompanyService, COMPANY_ERROR_STATUS, companyAccountsRoutes(), CompanyAccountsRouteServices, context(), sendCompanyError()
-
-### Community 115 - "Order Admin Service"
+### Community 113 - "requireAdmin"
 Cohesion: 0.15
-Nodes (12): AdminOrderListItem, AdminOrderListQuery, AdminOrderRefundPayment, OrderAdminRepository, orderStatuses, optionalIso(), optionalText(), OrderAdminError (+4 more)
+Nodes (17): requireAdmin(), adminInventoryRoutes(), receiveStock(), sendInventoryError(), adminJobsRoutes(), AdminJobsRouteServices, auditContext(), JobIdParam (+9 more)
 
-### Community 116 - "Trade Credit E2E Tests"
+### Community 115 - "orderAdminService.ts"
+Cohesion: 0.14
+Nodes (14): AdminOrderListItem, AdminOrderListQuery, OrderAdminRepository, optionalIso(), optionalText(), OrderAdminError, OrderAdminService, page() (+6 more)
+
+### Community 116 - "tradeCreditEndToEnd.integration.test.ts"
 Cohesion: 0.12
 Nodes (12): cardPaymentPayload(), CompanyFacts, createCart(), creditPaymentPayload(), errorCode(), InvoiceFacts, login(), NOW (+4 more)
 
-### Community 117 - "Web Package Deps"
+### Community 117 - "web/package.json"
 Cohesion: 0.11
 Nodes (18): @shop/contracts, @shop/localisation, @sinclair/typebox, name, private, type, version, clsx (+10 more)
 
-### Community 118 - "Packaging Artwork SVGs"
+### Community 118 - "svgText.ts"
 Cohesion: 0.30
 Nodes (14): KegArtwork(), KraftSackArtwork(), VesselArtworkProps, cond(), CondOptions, condWidth(), ghs(), irritant() (+6 more)
 
-### Community 119 - "Root npm Scripts"
+### Community 119 - "scripts"
 Cohesion: 0.11
 Nodes (19): scripts, check:localisation, dev, format, format:fix, lint, postinstall, reset (+11 more)
 
-### Community 120 - "Trade Account Services"
+### Community 120 - "TradeAccountResult"
 Cohesion: 0.17
 Nodes (4): TradeAccountServices, BillingEntityService, DeliverySiteService, TradeAccountResult
 
-### Community 121 - "Migration 034 Order Receipt"
+### Community 121 - "034_mailbox_order_receipt.ts"
 Cohesion: 0.14
 Nodes (13): columnNames(), ForeignKeyRow, hasCompletedSchema(), hasExpectedColumns(), hasExpectedForeignKey(), hasExpectedIndex(), IndexInfoRow, IndexListRow (+5 more)
 
-### Community 122 - "Powder Catalog Seed"
+### Community 122 - "@shop/catalog"
 Cohesion: 0.12
 Nodes (16): DEMO_ORDER_SCENARIO_KEYS, product(), ProductLine, Scenario, ScenarioEvent, ScenarioKey, SCENARIOS, seedOrderScenarios() (+8 more)
 
-### Community 123 - "Review Service"
-Cohesion: 0.18
-Nodes (10): asOwnedReview(), asReview(), engagement(), normalize(), now(), requireOwner(), requirePublishedEngageable(), requireReview() (+2 more)
+### Community 123 - "reviewService.ts"
+Cohesion: 0.16
+Nodes (13): AdminReviewQueueQueryInput, ReviewListQueryInput, ReviewReportInput, asOwnedReview(), asReview(), engagement(), normalize(), now() (+5 more)
 
-### Community 124 - "Invoice Repository"
+### Community 124 - "invoiceRepository.ts"
 Cohesion: 0.15
 Nodes (14): failCorrupt(), InvoiceAdminListQuery, InvoiceEventRow, InvoiceExposureRelease, InvoiceInsert, InvoiceLifecycleUpdate, InvoiceOrderReview, InvoicePaymentReview (+6 more)
 
-### Community 125 - "Promo Admin Service"
-Cohesion: 0.22
-Nodes (16): PromoAdminWrite, categorySet, countrySet, normalizeCountries(), normalizeWrite(), nullableCategory(), nullableInstant(), nullableNonNegativeInteger() (+8 more)
+### Community 125 - "promoAdminService.ts"
+Cohesion: 0.10
+Nodes (22): createPromoAdminRepository(), PromoAdminRepository, PromoAdminWrite, PromoRow, toRecord(), categorySet, countrySet, normalizeCountries() (+14 more)
 
-### Community 126 - "Review Repository Interface"
+### Community 126 - "ReviewRepository"
 Cohesion: 0.11
 Nodes (3): ReviewRepository, NormalizedAdminReviewQueueQuery, ReviewSort
 
-### Community 127 - "Payment Submission Hook"
-Cohesion: 0.22
-Nodes (15): readyPaymentState(), cardFields, CheckoutEvent, createIdempotencyKey(), initialCheckoutState(), buildPaymentBody(), buildPaymentPayload, checkoutConflict() (+7 more)
+### Community 127 - "usePaymentSubmission.ts"
+Cohesion: 0.17
+Nodes (19): pay(), payCard(), PaymentRequestOptions, payTradeCredit(), checkoutCodeToken(), readyPaymentState(), cardFields, createIdempotencyKey() (+11 more)
 
-### Community 128 - "Custom Blend Evaluation Hook"
-Cohesion: 0.18
-Nodes (17): CustomBlendDraftIngredient, CustomBlendState, CustomBlendEvaluationError, CustomBlendEvaluationOptions, CustomBlendEvaluationResult, DraftValues, emptyStoredEvaluation, errorDescriptor() (+9 more)
+### Community 128 - "CustomBlendPage.test.tsx"
+Cohesion: 0.07
+Nodes (34): evaluateCustomBlend(), addCustomBlend, component(), configuredLine(), countryState, CREATED_CONFIG_KEY, EDIT_CONFIG_KEY, evaluationFor() (+26 more)
 
-### Community 129 - "Catalog Model Types"
+### Community 129 - "model.ts"
 Cohesion: 0.11
 Nodes (17): BaseProductFacts, CatalogCategory, CatalogVariant, CategoryFacts, CleaningFacts, ConsumptionClassification, DeliveryClass, EdibleFacts (+9 more)
 
-### Community 132 - "Custom Blend Page Tests"
-Cohesion: 0.15
-Nodes (14): addCustomBlend, component(), configuredLine(), countryState, CREATED_CONFIG_KEY, EDIT_CONFIG_KEY, evaluationFor(), mockCart() (+6 more)
+### Community 131 - "creditHoldRepository.ts"
+Cohesion: 0.09
+Nodes (14): accountRow(), accountState(), createCreditExposureHoldRepository, createCreditHoldRepository(), createTradeCreditHoldRepository, CreditHoldAuthorizeInput, CreditHoldCommitInput, CreditHoldReleaseInput (+6 more)
 
-### Community 133 - "Catalog Bundles & Index"
+### Community 132 - "mappers/product.ts"
+Cohesion: 0.20
+Nodes (14): isNonNegativeSafeInteger(), resolveClearance(), validParams, timestamp(), computeBaseAvailability(), computePriceRange(), mapVariant(), parseDetailsJson() (+6 more)
+
+### Community 133 - "catalog.test.ts"
 Cohesion: 0.12
 Nodes (6): CatalogBundle, CatalogBundleComponent, CURATED_BUNDLES, CATALOG_CATEGORIES, CATALOG_CREATED_AT_BY_ID, MIXING_GROUPS
 
-### Community 134 - "Date Formatting"
+### Community 134 - "formatDate.ts"
 Cohesion: 0.20
 Nodes (16): CIVIL_PRESET_OPTIONS, DateCountry, DateFormatOptions, dateFormatters, DatePreset, formatCivilDate(), formatDate, formatInstant() (+8 more)
 
-### Community 135 - "Base TS Config"
+### Community 135 - "compilerOptions"
 Cohesion: 0.12
 Nodes (16): compilerOptions, declaration, declarationMap, esModuleInterop, forceConsistentCasingInFileNames, isolatedModules, module, moduleResolution (+8 more)
 
-### Community 136 - "Migration 035 Trade Credit"
+### Community 136 - "035_trade_credit_accounts_and_intents.ts"
 Cohesion: 0.23
 Nodes (13): addColumnIfMissing(), addCompanyCreditColumns(), assertForeignKeysClean(), countRows(), explicitSchemaObjects(), hasColumn(), hasTable(), MigrationDb (+5 more)
 
-### Community 138 - "Product Media Packaging"
-Cohesion: 0.15
-Nodes (10): NEUTRAL_PACKAGING_SCHEME, INKS, FOOD_BAG_DESIGNS, FoodBagArtwork, FoodBagDesign, genericArtworkDataUri(), product, ProductMediaProps (+2 more)
+### Community 137 - "NotificationsInboxJourney.integration.test.tsx"
+Cohesion: 0.24
+Nodes (10): NotificationBell(), NotificationList(), auth, item, RefreshProbe(), renderInboxWithProbe(), secondItem, UnreadProbe() (+2 more)
 
-### Community 139 - "Standing Orders Presentation"
-Cohesion: 0.18
-Nodes (12): History(), API_ERROR_FALLBACK_KEYS, apiErrorParams(), cadence, resolve(), STANDING_ORDER_CADENCES, STANDING_ORDER_ERROR_CODES, standingOrderCadenceLabel() (+4 more)
+### Community 139 - "CatalogSidebar.tsx"
+Cohesion: 0.24
+Nodes (12): CatalogActiveFilters(), CatalogActiveFiltersProps, FilterChip(), CatalogSidebar(), readNonNegativeInteger(), AvailabilityChoice(), CatalogSidebarControls(), CatalogSidebarControlsProps (+4 more)
 
-### Community 140 - "Quick Order Contracts"
+### Community 140 - "src/quickOrder.ts"
 Cohesion: 0.16
 Nodes (14): Cart, QuickOrderCart, QuickOrderLineOutcome, QuickOrderLineOutcomeFields, QuickOrderLineStatus, QuickOrderOutcomeStatusPair, QuickOrderRequestBody, QuickOrderResponse (+6 more)
 
-### Community 142 - "Product Admin Repository"
+### Community 142 - "ProductRow"
 Cohesion: 0.20
 Nodes (3): ProductAdminRepository, ProductAdminService, ProductRow
 
-### Community 143 - "Country Availability Rules"
+### Community 143 - "countryProfileService.ts"
 Cohesion: 0.27
 Nodes (10): blockedCategoriesFor(), blockedSlugsFor(), isCategoryBlocked(), isProductBlocked(), cnProfile, productBlockedProfile, assertProfilesMatchCatalog(), createCountryProfileService() (+2 more)
 
-### Community 144 - "Promo Admin Repository"
-Cohesion: 0.21
-Nodes (3): PromoAdminRepository, PromoAdminService, PromoRecord
-
-### Community 145 - "Credit Exposure Math"
-Cohesion: 0.14
-Nodes (13): accountRow(), accountState(), createCreditExposureHoldRepository, createTradeCreditHoldRepository, CreditExposureSummary, CreditHoldAuthorizeInput, CreditHoldCommitInput, CreditHoldReleaseInput (+5 more)
-
-### Community 146 - "Order Routes & Invoices"
+### Community 144 - "server.ts"
 Cohesion: 0.23
-Nodes (10): auditContext(), flattenInvoiceSchema(), invoiceResponseSchema, optionalInvoiceReader(), ordersRoutes(), OrdersRouteServices, OwnedOrderInvoiceReader, sendInvoiceCancellationError() (+2 more)
+Nodes (8): ApiConfig, DEFAULT_WEBHOOK_SECRET, loadConfig(), parseResetBaseUrl(), db, runServer(), ServerStarter, startServer()
 
-### Community 147 - "Web UI Dependencies"
+### Community 145 - "CreditAccountService"
+Cohesion: 0.11
+Nodes (3): CreditAccountService, CreditExposureSummary, CreditHoldRow
+
+### Community 146 - "routes/orders.ts"
+Cohesion: 0.17
+Nodes (13): INVOICE_ERROR_CODES, InvoiceErrorCode, messages, auditContext(), flattenInvoiceSchema(), invoiceResponseSchema, optionalInvoiceReader(), ordersRoutes() (+5 more)
+
+### Community 147 - "dependencies"
 Cohesion: 0.13
 Nodes (15): dependencies, @base-ui/react, class-variance-authority, clsx, @fontsource-variable/geist, lucide-react, react, react-dom (+7 more)
 
-### Community 148 - "Catalog Query Params"
+### Community 148 - "src/catalogQuery.ts"
 Cohesion: 0.30
 Nodes (13): CATALOG_DISCOVERY_PARAM_KEYS, CatalogParamKey, CatalogParamValue, isNormalizedKey(), normalizedSpecifications(), parseBoundedInteger(), parseCatalogQuery(), parseDate() (+5 more)
 
-### Community 149 - "Catalog Package Manifest"
+### Community 149 - "catalog/package.json"
 Cohesion: 0.13
 Nodes (14): devDependencies, tsx, exports, tsx, main, name, private, scripts (+6 more)
 
-### Community 150 - "Test Profiling Script"
+### Community 150 - "profile-tests.mjs"
 Cohesion: 0.23
 Nodes (10): main(), parseArgs(), printRecord(), profile(), ROOT, runChild(), suiteCommand(), SUITES (+2 more)
 
-### Community 151 - "Playwright Test Workflow (.agents)"
+### Community 151 - "Test Generation (plan / generate / heal)"
 Cohesion: 0.22
 Nodes (12): Running and Debugging Playwright Tests, --debug=cli test debugging + attach, PLAYWRIGHT_HTML_OPEN=never, Browser Session Management, attach via CDP / channel / extension, Headless idle timeout (1 hour), Named browser sessions (-s), Test Generation (plan / generate / heal) (+4 more)
 
-### Community 152 - "Workshop E2E Planning Prompt"
+### Community 152 - "QME-419 Custom-blend cart editing regression plan prompt"
 Cohesion: 0.21
 Nodes (9): test-planner Agent, Plan output sections (Scenarios, Existing coverage, Files to read, Risks, Approach), QME-419 Custom-blend cart editing regression plan prompt, AC1 Restore and retain edits, AC2 Save and combine blend lines, AC3 Resulting prices (volume pricing, single mixing fee), AC4 Current evaluation (stale response guard), workshop/e2e-plan.md output (+1 more)
 
-### Community 153 - "API Package Manifest"
-Cohesion: 0.14
-Nodes (13): devDependencies, tsx, @types/better-sqlite3, @types/node, @shop/contracts, @shop/localisation, tsx, name (+5 more)
+### Community 153 - "api/package.json"
+Cohesion: 0.09
+Nodes (21): dependencies, better-sqlite3, fastify, @fastify/cookie, @fastify/type-provider-typebox, @shop/catalog, @shop/contracts, @shop/localisation (+13 more)
 
-### Community 154 - "Product Similarity"
+### Community 154 - "productSimilarity.ts"
 Cohesion: 0.24
 Nodes (9): compareScoredCandidates(), matchingSpecificationCount(), priceScore(), rankSimilarProducts(), scoreProductSimilarity(), sharedTagCount(), SimilarityScoreBreakdown, specificationValues() (+1 more)
 
-### Community 155 - "Review Repository"
+### Community 155 - "reviewRepository.ts"
 Cohesion: 0.18
 Nodes (12): AdminQueueRecord, AdminReportRecord, EngagementRecord, mapRow(), ORDER_BY, PersistedReportStatus, PersistedReviewStatus, ReviewRecord (+4 more)
 
-### Community 156 - "Mailbox Page"
+### Community 156 - "MailboxPage.tsx"
 Cohesion: 0.29
 Nodes (11): getMailbox(), companyRoleMessageKey(), dualMoney(), MailboxPage(), fetchMailbox(), materialize(), RenderedMailbox, renderLegacy() (+3 more)
 
-### Community 157 - "Root Package & ESLint"
+### Community 157 - "package.json"
 Cohesion: 0.15
 Nodes (12): engines, node, tsx, name, private, workspaces, concurrently, eslint (+4 more)
 
-### Community 158 - "Contracts Package Manifest"
+### Community 158 - "contracts/package.json"
 Cohesion: 0.14
 Nodes (13): dependencies, @sinclair/typebox, @sinclair/typebox, main, name, private, scripts, build (+5 more)
 
-### Community 159 - "Localisation Lint Visitors"
-Cohesion: 0.24
-Nodes (14): containsRawErrorMessage(), visit(), hasHumanText(), visit(), isMessageKey(), isRawCopy(), isTechnicalLiteral(), jsxExpressionLiteralValue() (+6 more)
+### Community 159 - "visit"
+Cohesion: 0.22
+Nodes (15): containsRawErrorMessage(), visit(), hasHumanText(), visit(), isMessageKey(), isRawCopy(), isReplyResponseReceiver(), isTechnicalLiteral() (+7 more)
 
-### Community 160 - "Custom Blend Journey Tests"
+### Community 160 - "customBlendRulesJourney.integration.test.ts"
 Cohesion: 0.15
 Nodes (5): Lot, NOW, parseCart(), paymentPayload(), UK_HEADERS
 
-### Community 161 - "Custom Blend Order Tests"
+### Community 161 - "customBlendOrder.integration.test.ts"
 Cohesion: 0.19
 Nodes (9): App, cookie(), eligibleLots(), Fixture, login(), Lot, orderDetail(), pay() (+1 more)
 
-### Community 162 - "Packaging Artwork Tests"
+### Community 162 - "PackagingArtwork.test.tsx"
 Cohesion: 0.15
 Nodes (10): foodSpec(), heroSpec(), kegCorrosiveSpec, kegMildSpec, kegSchemedSpec, kraftSchemedSpec, kraftSpec, wovenSchemedSpec (+2 more)
 
-### Community 163 - "Money Formatting"
+### Community 163 - "formatMoney.ts"
 Cohesion: 0.33
 Nodes (12): assertInteger(), convertPenceToDisplayMinor(), currencyFormatters, DualTotal, formatDisplayMoney(), formatDualTotal(), formatMinor(), formatSettlementMoney() (+4 more)
 
-### Community 164 - "E2E README & Tooling Rules"
+### Community 164 - "End-to-end tests README"
 Cohesion: 0.24
 Nodes (8): playwright-cli find (snapshot search), playwright-cli (@playwright/cli), End-to-end tests README, e2e config.ts (E2E_BASE_URL), Page objects (e2e/pages/), playwright-mcp, npm run dev, npm run seed
 
-### Community 166 - "Order Approval Routes"
-Cohesion: 0.24
-Nodes (6): ApprovalResult, ApprovalService, context(), orderApprovalRoutes(), OrderApprovalsRouteServices, sendApprovalError()
+### Community 166 - "pricingRules.ts"
+Cohesion: 0.40
+Nodes (13): inverseTierPriceForProjection(), moqShortfallSacks(), nextTierProgress, perTonneCents(), requireNonNegativeSafeInteger(), requirePositiveSafeInteger(), resolveTierDiscountPct(), resolveTierDiscountPctForWeight() (+5 more)
 
-### Community 167 - "Admin Product Routes"
+### Community 167 - "routes/adminProducts.ts"
 Cohesion: 0.26
 Nodes (11): adminProductsRoutes(), AdminProductsRouteServices, AdminProductWithCountry, AdminProductWithCountryListResponse, category(), consumptionClassification(), context(), map() (+3 more)
 
-### Community 168 - "Web Dev Dependencies"
+### Community 168 - "devDependencies"
 Cohesion: 0.17
 Nodes (12): devDependencies, jsdom, tailwindcss, @tailwindcss/vite, @testing-library/jest-dom, @testing-library/react, @testing-library/user-event, @types/react (+4 more)
 
-### Community 169 - "Help Policy Messages"
+### Community 169 - "helpPolicy.ts"
 Cohesion: 0.17
 Nodes (10): articleIds, authoredBodyMessages, bodyDomainTranslations, generated, HelpPolicyMessageKey, helpPolicyMessages, keys, summaryTranslations (+2 more)
 
-### Community 170 - "Catalog Specifications"
-Cohesion: 0.22
-Nodes (10): CATALOG_SPECIFICATION_DEFINITIONS, CATALOG_SPECIFICATION_GROUPS, catalogProductSpecifications(), catalogSpecificationByKey, CatalogSpecificationDefinition, CatalogSpecificationGroup, CatalogSpecificationGroupKey, ResolvedCatalogSpecification (+2 more)
+### Community 170 - "catalog/catalogQuery.ts"
+Cohesion: 0.15
+Nodes (16): CatalogQueryError, CatalogSpecificationFilter, NormalizedCatalogQuery, parseCatalogDate(), parseSpecification(), CATALOG_SPECIFICATION_DEFINITIONS, CATALOG_SPECIFICATION_GROUPS, catalogProductSpecifications() (+8 more)
 
-### Community 172 - "Admin Promo Routes"
-Cohesion: 0.27
-Nodes (9): adminPromosRoutes(), AdminPromosRouteServices, categoryScope(), context(), map(), sendError(), admin, customer (+1 more)
+### Community 172 - "routes/adminPromos.ts"
+Cohesion: 0.48
+Nodes (6): adminPromosRoutes(), AdminPromosRouteServices, categoryScope(), context(), map(), sendError()
 
-### Community 173 - "Web TS Config"
+### Community 173 - "compilerOptions"
 Cohesion: 0.18
 Nodes (10): compilerOptions, jsx, lib, noEmit, outDir, paths, rootDir, extends (+2 more)
 
-### Community 174 - "E2E TS Config"
+### Community 174 - "compilerOptions"
 Cohesion: 0.18
 Nodes (10): compilerOptions, declaration, declarationMap, lib, noEmit, sourceMap, types, extends (+2 more)
 
-### Community 176 - "Credit Expiry & Error Mapping"
-Cohesion: 0.27
-Nodes (10): cartLinesUnblocked(), expirePreparedReservations(), isPendingApprovalPayment(), mapCreditAccountError(), mapCreditFailure(), prepare(), promoValidationCartRepository(), releasePreparedCreditHold() (+2 more)
+### Community 176 - "customBlendService.ts"
+Cohesion: 0.18
+Nodes (8): CustomBlendResolver, CustomBlendResolverError, resolverErrorKind(), CustomBlendInvalidError, CustomBlendMutationResult, evaluatedSpecFor(), isCustomBlendResolver(), throwInvalid()
 
-### Community 177 - "API TS Config"
+### Community 177 - "api/tsconfig.json"
 Cohesion: 0.20
 Nodes (9): compilerOptions, composite, outDir, rootDir, types, extends, include, ../../tsconfig.base.json (+1 more)
 
-### Community 178 - "Packaging Palettes"
+### Community 178 - "catalogPackagingPalettes.ts"
 Cohesion: 0.24
 Nodes (8): CATALOG_PACKAGING_PALETTES, CatalogPackagingCategory, CatalogPackagingPalette, isRecognizedCategory(), PaletteTuple, CATEGORIES, INDEX_COVERAGE, PALETTE_MATRIX
 
-### Community 179 - "Trade Field Validation"
-Cohesion: 0.29
-Nodes (9): handleSubmit(), validateEntityDraft(), handleSubmit(), validateSiteDraft(), checkContactPhone(), checkOptionalTradeText(), checkRequiredTradeText(), CONTACT_PHONE_BOUNDS (+1 more)
+### Community 179 - "routes/adminRefunds.ts"
+Cohesion: 0.18
+Nodes (12): AdminRefundService, adminRefundsRoutes(), AdminRefundsRouteServices, context(), sendError(), auditContext(), BACK_IN_STOCK_ERROR_STATUS, BackInStockErrorResponse (+4 more)
 
-### Community 180 - "Contracts Export Map"
+### Community 180 - "exports"
 Cohesion: 0.20
 Nodes (10): import, types, import, types, import, types, exports, ./account-depth (+2 more)
 
-### Community 181 - "Workshop Env Skill"
+### Community 181 - "workshop-env Skill"
 Cohesion: 0.36
 Nodes (6): workshop-env Skill, Workshop backup vault (~/.workshop-backup + manifest.json), Clean environment procedure, enabledPlugins in settings.json, Restore environment procedure, Status check procedure
 
-### Community 182 - "API npm Scripts"
+### Community 182 - "scripts"
 Cohesion: 0.22
 Nodes (9): scripts, build, dev, reset, seed, test, test:integration, test:unit (+1 more)
 
-### Community 183 - "Checkout Finalizer"
-Cohesion: 0.33
-Nodes (8): AUDIT_ACTIONS, appendInvoiceIssuedAudit(), currentQuote(), finalizeAuthorizedCheckout(), FinalizerDependencies, isResolvedCustomBlendSnapshot(), normalizeSnapshotId(), resumeFinalization()
+### Community 183 - "quickOrderService.ts"
+Cohesion: 0.26
+Nodes (10): quickOrderError(), QuickOrderErrorCode, quickOrderOk(), QuickOrderResult, countQuickOrderOutcomes(), toQuickOrderBulkAddRequests(), createQuickOrderService(), QuickOrderInput (+2 more)
 
-### Community 186 - "Admin Variant Routes"
-Cohesion: 0.33
-Nodes (8): adminVariantsRoutes(), AdminVariantWithCountry, AdminVariantWithCountryListResponse, context(), deliveryClass(), map(), mapWithCountry(), sendError()
+### Community 184 - "reorderService.ts"
+Cohesion: 0.24
+Nodes (9): reorderError(), ReorderErrorCode, reorderOk(), ReorderResult, ReorderLineOutcome, createReorderService(), ReorderInput, ReorderReport (+1 more)
 
-### Community 187 - "Root Dev Dependencies"
+### Community 186 - "routes/adminVariants.ts"
+Cohesion: 0.29
+Nodes (9): adminVariantsRoutes(), AdminVariantsRouteServices, AdminVariantWithCountry, AdminVariantWithCountryListResponse, context(), deliveryClass(), map(), mapWithCountry() (+1 more)
+
+### Community 187 - "devDependencies"
 Cohesion: 0.22
 Nodes (9): devDependencies, concurrently, eslint, @eslint/js, @playwright/test, prettier, tsx, typescript (+1 more)
 
-### Community 188 - "Contracts Test TS Config"
+### Community 188 - "compilerOptions"
 Cohesion: 0.22
 Nodes (8): compilerOptions, composite, noEmit, rootDir, types, extends, include, ../tsconfig.json
 
-### Community 189 - "API Runtime Deps"
-Cohesion: 0.25
-Nodes (8): dependencies, better-sqlite3, fastify, @fastify/cookie, @fastify/type-provider-typebox, @shop/catalog, @shop/contracts, @shop/localisation
+### Community 189 - "quickOrderRoutes.integration.test.ts"
+Cohesion: 0.17
+Nodes (7): App, cookieValue(), Fixture, login(), NOW, openFixture(), SeedLot
 
-### Community 191 - "Nav Items"
+### Community 190 - "userAdminRepository.ts"
+Cohesion: 0.20
+Nodes (4): AdminUserRow, createUserAdminRepository(), toRecord(), UserAdminRepository
+
+### Community 191 - "navItems.ts"
 Cohesion: 0.25
 Nodes (7): accountItem, bundlesItem, customBlendItem, NavItem, navItems, savedListsItem, searchItem
 
-### Community 192 - "Translation Surface Test"
-Cohesion: 0.25
+### Community 192 - "translationSurface.test.ts"
+Cohesion: 0.29
 Nodes (6): allowlist, checkoutFixturePath, Finding, fixtureRoot, scanLocalisationFiles, ALLOWLIST
 
-### Community 193 - "Vite & Vitest Config"
+### Community 193 - "vite.config.ts"
 Cohesion: 0.25
 Nodes (4): configDirectory, @tailwindcss/vite, vite, @vitejs/plugin-react
 
-### Community 194 - "Catalog TS Config"
+### Community 194 - "catalog/tsconfig.json"
 Cohesion: 0.25
 Nodes (7): compilerOptions, composite, outDir, rootDir, extends, include, ../../tsconfig.base.json
 
-### Community 195 - "Contracts TS Config"
+### Community 195 - "contracts/tsconfig.json"
 Cohesion: 0.25
 Nodes (7): compilerOptions, composite, outDir, rootDir, extends, include, ../../tsconfig.base.json
 
-### Community 196 - "Localisation TS Config"
+### Community 196 - "localisation/tsconfig.json"
 Cohesion: 0.25
 Nodes (7): compilerOptions, composite, outDir, rootDir, extends, include, ../../tsconfig.base.json
 
-### Community 197 - "Localisation ESLint TS Config"
+### Community 197 - "localisation/tsconfig.eslint.json"
 Cohesion: 0.25
 Nodes (7): compilerOptions, noEmit, rootDir, types, extends, include, ./tsconfig.json
 
-### Community 198 - "Company Accounts Seed"
+### Community 198 - "companyAccountsSeed.ts"
 Cohesion: 0.38
 Nodes (6): ACME_CREDIT_LIMIT_CENTS, ACME_CREDIT_STATE, ACME_CREDIT_TERMS_DAYS, findUserId(), inviteDigest(), seedCompanyAccounts()
 
-### Community 200 - "Custom Blend Routes"
+### Community 199 - "stockObserver.integration.test.ts"
+Cohesion: 0.26
+Nodes (9): createVariantAdminRepository(), createVariantAdminService(), setup(), fixture(), insertOrderLine(), insertPayment(), placeBackorder(), RecordedCall (+1 more)
+
+### Community 200 - "routes/customBlends.ts"
 Cohesion: 0.52
 Nodes (6): auditContext(), customBlendMinimumQuantity(), customBlendRoutes(), isSafePercentage(), sendCustomBlendError(), sendMutationResult()
 
-### Community 201 - "API Test TS Config"
+### Community 201 - "api/test/tsconfig.json"
 Cohesion: 0.29
 Nodes (6): compilerOptions, noEmit, rootDir, extends, include, ../tsconfig.json
 
-### Community 202 - "Web npm Scripts"
+### Community 202 - "scripts"
 Cohesion: 0.29
 Nodes (7): scripts, build, dev, test, test:integration, test:unit, typecheck
 
-### Community 203 - "Custom Blend Eval Tests"
-Cohesion: 0.29
-Nodes (3): evaluateCustomBlend(), countryState, ingredients
+### Community 203 - "mailboxRepository.ts"
+Cohesion: 0.39
+Nodes (11): assertMessage(), failInvalidMailboxRow(), MailboxAddInput, MailboxCommonInput, MailboxRow, mapInvoiceRow(), mapMailboxRow(), mapReceiptRow() (+3 more)
 
-### Community 204 - "Scripts ESLint TS Config"
+### Community 204 - "scripts/tsconfig.eslint.json"
 Cohesion: 0.29
 Nodes (6): compilerOptions, jsx, noEmit, extends, files, ../tsconfig.base.json
 
-### Community 205 - "Playwright Storage State"
+### Community 205 - "Storage Management"
 Cohesion: 0.40
 Nodes (5): Persistent profile (--persistent / --profile), Storage Management, Authentication state reuse, Storage state file (cookies + origins localStorage), In-memory browser profile (default)
 
-### Community 206 - "Return Scenarios Seed"
+### Community 207 - "MixVisualization.tsx"
 Cohesion: 0.33
-Nodes (4): DEMO_RETURN_SCENARIO_KEYS, ReturnScenario, ReturnScenarioKey, SCENARIOS
+Nodes (8): deterministicMixColour(), mixColour(), MixPart, MixSegment, MixVisualization(), base, ingredient, toSegments()
 
-### Community 207 - "Review Integration Tests"
-Cohesion: 0.40
-Nodes (5): body(), clock, context, isRecord(), parseMetadataJson()
+### Community 209 - "countryStage2EndToEnd.integration.test.ts"
+Cohesion: 0.22
+Nodes (5): App, CN_HEADERS, NOW, UK_HEADERS, US_HEADERS
 
-### Community 208 - "Checkout Quote Tests"
-Cohesion: 0.33
-Nodes (5): cart, checkout, resolved, slot, testPostalAddress
-
-### Community 209 - "Review Query Inputs"
-Cohesion: 0.20
-Nodes (3): AdminReviewQueueQueryInput, ReviewListQueryInput, ReviewReportInput
-
-### Community 210 - "Cart Routes"
+### Community 210 - "routes/cart.ts"
 Cohesion: 0.67
 Nodes (5): auditContext(), cartRoutes(), minimumMoqQuantity(), minimumMoqQuantityForVariant(), resolveCartLineVariant()
 
-### Community 211 - "Lint Fixture: Raw Route Error"
+### Community 211 - "code"
 Cohesion: 0.53
 Nodes (4): chainedRoute(), code(), directRoute(), send()
 
-### Community 212 - "Web Trade Credit API"
-Cohesion: 0.40
-Nodes (4): getCompanyCredit, getCreditSummary, getTradeCreditAccount, TradeCreditRequestOptions
+### Community 212 - "useCheckoutFlow.test.tsx"
+Cohesion: 0.17
+Nodes (11): getCompanyCredit, getCreditSummary, getTradeCreditAccount, getTradeCreditSummary(), TradeCreditRequestOptions, activeSummary, context, TestCart (+3 more)
 
-### Community 213 - "Packaging Artwork Types"
-Cohesion: 0.40
-Nodes (5): BagArtworkPaint, TileArtwork, HeroVessel, PackagingArtworkProps, PackagingSpec
+### Community 213 - "AdminCreditAccountDetailPage.test.tsx"
+Cohesion: 0.32
+Nodes (6): account, api, countryState, Location(), pageElement(), renderPage()
 
-### Community 214 - "Back-in-Stock Seed"
-Cohesion: 0.83
-Nodes (3): findUserId(), findVariantId(), seedBackInStock()
+### Community 214 - "021_remove_powderizer.ts"
+Cohesion: 0.33
+Nodes (4): hasColumn(), hasTable(), MigrationDb, removePowderizerMigration
 
-### Community 215 - "Favicon & Brand"
+### Community 215 - "Favicon (QArefully Materials Exchange)"
 Cohesion: 0.67
 Nodes (3): Favicon (QArefully Materials Exchange), Bulk Materials by Sack or Pallet, QArefully Materials Exchange (brand)
 
-### Community 216 - "Lint Fixture: Display Intl"
+### Community 216 - "display-intl.ts"
 Cohesion: 0.50
 Nodes (3): callableDate, callableNumber, display
 
-### Community 217 - "Contracts Export ./admin-orders-list"
+### Community 217 - "./admin-orders-list"
 Cohesion: 0.67
 Nodes (3): import, types, ./admin-orders-list
 
-### Community 218 - "Contracts Export ./admin-products"
+### Community 218 - "./admin-products"
 Cohesion: 0.67
 Nodes (3): import, types, ./admin-products
 
-### Community 219 - "Contracts Export ./admin-promos"
+### Community 219 - "./admin-promos"
 Cohesion: 0.67
 Nodes (3): import, types, ./admin-promos
 
-### Community 220 - "Contracts Export ./admin-refunds"
+### Community 220 - "./admin-refunds"
 Cohesion: 0.67
 Nodes (3): import, types, ./admin-refunds
 
-### Community 221 - "Contracts Export ./admin-users"
+### Community 221 - "./admin-users"
 Cohesion: 0.67
 Nodes (3): import, types, ./admin-users
 
-### Community 222 - "Contracts Export ./admin-variants"
+### Community 222 - "./admin-variants"
 Cohesion: 0.67
 Nodes (3): import, types, ./admin-variants
 
-### Community 223 - "Contracts Export ./audit"
+### Community 223 - "./audit"
 Cohesion: 0.67
 Nodes (3): import, types, ./audit
 
-### Community 224 - "Contracts Export ./auth"
+### Community 224 - "./auth"
 Cohesion: 0.67
 Nodes (3): import, types, ./auth
 
-### Community 225 - "Contracts Export ./back-in-stock"
+### Community 225 - "./back-in-stock"
 Cohesion: 0.67
 Nodes (3): import, types, ./back-in-stock
 
-### Community 226 - "Contracts Export ./bundles"
+### Community 226 - "./bundles"
 Cohesion: 0.67
 Nodes (3): import, types, ./bundles
 
-### Community 227 - "Contracts Export ./cart"
+### Community 227 - "./cart"
 Cohesion: 0.67
 Nodes (3): import, types, ./cart
 
-### Community 228 - "Contracts Export ./common"
+### Community 228 - "./common"
 Cohesion: 0.67
 Nodes (3): import, types, ./common
 
-### Community 229 - "Contracts Export ./company-accounts"
+### Community 229 - "./company-accounts"
 Cohesion: 0.67
 Nodes (3): import, types, ./company-accounts
 
-### Community 230 - "Contracts Export ./country"
+### Community 230 - "./country"
 Cohesion: 0.67
 Nodes (3): import, types, ./country
 
-### Community 231 - "Contracts Export ./country-profiles"
+### Community 231 - "./country-profiles"
 Cohesion: 0.67
 Nodes (3): import, types, ./country-profiles
 
-### Community 232 - "Contracts Export ./delivery"
+### Community 232 - "./delivery"
 Cohesion: 0.67
 Nodes (3): import, types, ./delivery
 
-### Community 233 - "Contracts Export ./feature-flags"
+### Community 233 - "./feature-flags"
 Cohesion: 0.67
 Nodes (3): ./feature-flags, import, types
 
-### Community 234 - "Contracts Export ./inventory"
+### Community 234 - "./inventory"
 Cohesion: 0.67
 Nodes (3): ./inventory, import, types
 
-### Community 235 - "Contracts Export ./jobs"
+### Community 235 - "./jobs"
 Cohesion: 0.67
 Nodes (3): ./jobs, import, types
 
-### Community 236 - "Contracts Export ./mailbox"
+### Community 236 - "./mailbox"
 Cohesion: 0.67
 Nodes (3): ./mailbox, import, types
 
-### Community 237 - "Contracts Export ./notifications"
+### Community 237 - "./notifications"
 Cohesion: 0.67
 Nodes (3): ./notifications, import, types
 
-### Community 238 - "Contracts Export ./order-approvals"
+### Community 238 - "./order-approvals"
 Cohesion: 0.67
 Nodes (3): ./order-approvals, import, types
 
-### Community 239 - "Contracts Export ./orders"
+### Community 239 - "./orders"
 Cohesion: 0.67
 Nodes (3): ./orders, import, types
 
-### Community 240 - "Contracts Export ./payments"
+### Community 240 - "./payments"
 Cohesion: 0.67
 Nodes (3): ./payments, import, types
 
-### Community 241 - "Contracts Export ./pricing"
+### Community 241 - "./pricing"
 Cohesion: 0.67
 Nodes (3): ./pricing, import, types
 
-### Community 242 - "Contracts Export ./products"
+### Community 242 - "./products"
 Cohesion: 0.67
 Nodes (3): ./products, import, types
 
-### Community 243 - "Contracts Export ./promos"
+### Community 243 - "./promos"
 Cohesion: 0.67
 Nodes (3): ./promos, import, types
 
-### Community 244 - "Contracts Export ./public-errors"
+### Community 244 - "./public-errors"
 Cohesion: 0.67
 Nodes (3): ./public-errors, import, types
 
-### Community 245 - "Contracts Export ./quick-order"
+### Community 245 - "./quick-order"
 Cohesion: 0.67
 Nodes (3): ./quick-order, import, types
 
-### Community 246 - "Contracts Export ./reorder"
+### Community 246 - "./reorder"
 Cohesion: 0.67
 Nodes (3): ./reorder, import, types
 
-### Community 247 - "Contracts Export ./returns"
+### Community 247 - "./returns"
 Cohesion: 0.67
 Nodes (3): ./returns, import, types
 
-### Community 248 - "Contracts Export ./reviews"
+### Community 248 - "./reviews"
 Cohesion: 0.67
 Nodes (3): ./reviews, import, types
 
-### Community 249 - "Contracts Export ./saved-lists"
+### Community 249 - "./saved-lists"
 Cohesion: 0.67
 Nodes (3): ./saved-lists, import, types
 
-### Community 250 - "Contracts Export ./standing-orders"
+### Community 250 - "./standing-orders"
 Cohesion: 0.67
 Nodes (3): ./standing-orders, import, types
 
-### Community 251 - "Contracts Export ./trade-account"
+### Community 251 - "./trade-account"
 Cohesion: 0.67
 Nodes (3): ./trade-account, import, types
 
-### Community 252 - "Contracts Export ./trade-credit"
+### Community 252 - "./trade-credit"
 Cohesion: 0.67
 Nodes (3): ./trade-credit, import, types
 
-### Community 253 - "Contracts Export ./webhooks"
+### Community 253 - "./webhooks"
 Cohesion: 0.67
 Nodes (3): ./webhooks, import, types
+
+### Community 262 - "032_country_localisation.ts"
+Cohesion: 0.33
+Nodes (4): addColumnIfMissing(), countryLocalisationMigration, hasColumn(), MigrationDb
+
+### Community 263 - "routes/standingOrders.ts"
+Cohesion: 0.43
+Nodes (6): context(), errorStatus, StandingOrderIdParam, standingOrderRoutes(), transport(), transportRun()
+
+### Community 264 - "AdminJobsPage.test.tsx"
+Cohesion: 0.29
+Nodes (3): api, detail, job
+
+### Community 265 - "023_trade_delivery_and_checkout_depth.ts"
+Cohesion: 0.40
+Nodes (4): addOrderColumnIfMissing(), hasColumn(), MigrationDb, tradeDeliveryAndCheckoutDepthMigration
+
+### Community 266 - "024_pricing_promotions.ts"
+Cohesion: 0.40
+Nodes (4): addColumnIfMissing(), hasColumn(), MigrationDb, pricingPromotionsMigration
+
+### Community 267 - "025_account_self_service.ts"
+Cohesion: 0.40
+Nodes (4): accountSelfServiceMigration, addSessionColumnIfMissing(), hasColumn(), MigrationDb
+
+### Community 268 - "027_admin_surface.ts"
+Cohesion: 0.40
+Nodes (4): addColumnIfMissing(), adminSurfaceMigration, hasColumn(), MigrationDb
+
+### Community 269 - "BuyAgainJourney.integration.test.tsx"
+Cohesion: 0.40
+Nodes (4): CartStub(), mixedReport, orders, renderJourney()
+
+### Community 270 - "useProductReviews.test.tsx"
+Cohesion: 0.40
+Nodes (4): authState, ownedReview(), response(), reviewsApi
+
+### Community 274 - "productAdminRepository.ts"
+Cohesion: 0.40
+Nodes (4): createProductAdminRepository(), ProductAdminInsert, ProductAdminUpdate, writeColumns
+
+### Community 275 - "Q: Why does better-sqlite3 connect API DB Test Harness to ~35 API communities - is the DB coupled directly into services rather than through repositories?"
+Cohesion: 0.40
+Nodes (4): Answer, Outcome, Q: Why does better-sqlite3 connect API DB Test Harness to ~35 API communities - is the DB coupled directly into services rather than through repositories?, Source Nodes
 
 ## Ambiguous Edges - Review These
 - `Plan output sections (Scenarios, Existing coverage, Files to read, Risks, Approach)` → `workshop/e2e-plan.md output`  [AMBIGUOUS]
   workshop/prompt.md · relation: conceptually_related_to
-- `Browser tooling: Playwright CLI, never MCP` → `Static inspection only constraint`  [AMBIGUOUS]
+- `Static inspection only constraint` → `Browser tooling: Playwright CLI, never MCP`  [AMBIGUOUS]
   workshop/prompt.md · relation: conceptually_related_to
-- `playwright-cli Skill` → `Project-local Customizations Check`  [AMBIGUOUS]
+- `Project-local Customizations Check` → `playwright-cli Skill`  [AMBIGUOUS]
   .claude/skills/workshop-env/SKILL.md · relation: conceptually_related_to
 
 ## Knowledge Gaps
-- **62 isolated node(s):** `@shop/contracts`, `@shop/localisation`, `@types/better-sqlite3`, `@types/node`, `tsx` (+57 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 2892 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **20 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **62 isolated node(s):** `@shop/contracts`, `@shop/localisation`, `@sinclair/typebox`, `@fontsource-variable/geist`, `jsdom` (+57 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 2898 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **24 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `better-sqlite3` connect `API DB Test Harness` to `API Audit & Unit of Work`, `API Service Composition`, `Seeded App Integration Fixtures`, `DB Migrations`, `Checkout & Payment Services`, `Country Availability Rules`, `Credit Exposure Math`, `Custom Blend Resolver`, `API Package Manifest`, `Auth, Reset & Deletion`, `Review Repository`, `Custom Blend Journey Tests`, `Company & Approval Services`, `Custom Blend Order Tests`, `App Bootstrap & Clock`, `Standing Order Service`, `Bundles & Clearance`, `Feature Flags`, `Trade Credit Seed`, `Variant Admin`, `User Admin`, `Returns Service`, `Company Accounts Seed`, `DB Seed Scenarios`, `Return Scenarios Seed`, `Order Admin Routes Tests`, `Credit Account Repository`, `Back-in-Stock Seed`, `Admin Refunds`, `Product Admin Service`, `Reorder Route Tests`, `Order Admin Service`, `Trade Credit E2E Tests`, `Powder Catalog Seed`, `Invoice Repository`?**
-  _High betweenness centrality (0.030) - this node is a cross-community bridge._
-- **What connects `@shop/contracts`, `@shop/localisation`, `@types/better-sqlite3` to the rest of the system?**
+- **Why does `better-sqlite3` connect `better-sqlite3` to `auditService.ts`, `ref_node_assert`, `creditHoldRepository.ts`, `createAppServices`, `ref_shop_contracts`, `migrations/index.ts`, `checkoutService.ts`, `app.ts`, `countryProfileService.ts`, `productAdminRepository.ts`, `customBlendResolver.ts`, `api/package.json`, `deletion.integration.test.ts`, `reviewRepository.ts`, `customBlendRulesJourney.integration.test.ts`, `customBlendOrder.integration.test.ts`, `standingOrderService.ts`, `creditAccountService.ts`, `bundleService.ts`, `featureFlagService.ts`, `tradeCreditSeed.ts`, `returnService.ts`, `quickOrderRoutes.integration.test.ts`, `userAdminRepository.ts`, `companyAccountsSeed.ts`, `seed.ts`, `mailboxRepository.ts`, `UnitOfWork`, `orderAdminRepository.ts`, `adminRefundService.ts`, `orders/orderRepository.ts`, `tradeCreditEndToEnd.integration.test.ts`, `@shop/catalog`, `invoiceRepository.ts`, `promoAdminService.ts`?**
+  _High betweenness centrality (0.026) - this node is a cross-community bridge._
+- **What connects `@shop/contracts`, `@shop/localisation`, `@sinclair/typebox` to the rest of the system?**
   _62 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `API Audit & Unit of Work` be split into smaller, more focused modules?**
-  _Cohesion score 0.023358199828788066 - nodes in this community are weakly interconnected._
-- **Why does `vitest` connect `Web API Client Layer` to `Web App Shell & Routing`, `Web Cart/Auth/Country Contexts`, `Account Page & Localisation`, `Custom Blend Page Tests`, `Catalog UI & Product Cards`, `Web Integration Journeys`, `Product Media Packaging`, `Order Detail Pages`, `Standing Orders Presentation`, `Cart Sheet & UI Primitives`, `Catalog Product Journeys`, `Custom Blend Page UI`, `Help Content Registry`, `Mailbox Page`, `Packaging Artwork Tests`, `Product Page UI`, `Trade Profile Sections`, `Checkout Page Tests`, `Web Cart Hook & Storage`, `Packaging Palettes`, `Checkout State Reducer`, `Checkout Flow & Validation`, `Translation Surface Test`, `Vite & Vitest Config`, `Checkout Copy & Promo Quote`, `Product Comparison Selection`, `Product Reviews Hook`, `Quick Order Presentation`, `Custom Blend Eval Tests`, `Admin Review Moderation UI`, `Custom Blend State`, `Reorder Presentation`, `Saved Lists Presentation`, `Standing Orders Page`, `Back-in-Stock Context`, `Web Package Deps`, `Payment Submission Hook`?**
-  _High betweenness centrality (0.019) - this node is a cross-community bridge._
-- **Should `API DB Test Harness` be split into smaller, more focused modules?**
-  _Cohesion score 0.030135026379325764 - nodes in this community are weakly interconnected._
+- **Should `auditService.ts` be split into smaller, more focused modules?**
+  _Cohesion score 0.04247104247104247 - nodes in this community are weakly interconnected._
+- **Why does `vitest` connect `vitest` to `CustomBlendPage.test.tsx`, `LoadingSpinner`, `fetchWithResponseSchema`, `useAuth`, `BillingEntitiesSection.tsx`, `useLocalisation`, `AdminJobsPage.test.tsx`, `NotificationsInboxJourney.integration.test.tsx`, `packagingSpec.test.ts`, `LocaleProvider`, `OrderPages.test.tsx`, `ref_shop_contracts`, `BuyAgainJourney.integration.test.tsx`, `useProductReviews.test.tsx`, `BlendSummaryAside.tsx`, `ProductPage.tsx`, `CustomBlendPage.tsx`, `helpContentRegistry.ts`, `MailboxPage.tsx`, `PackagingArtwork.test.tsx`, `ComparisonPage.tsx`, `useTradeProfile.ts`, `CheckoutPage.test-fixtures.tsx`, `useCart.ts`, `catalogPackagingPalettes.ts`, `checkoutState.ts`, `useCheckoutFlow.ts`, `translationSurface.test.ts`, `vite.config.ts`, `checkoutCopy.ts`, `ComparisonSelectionContext.tsx`, `quickOrderPresentation.ts`, `react-router-dom`, `MixVisualization.tsx`, `reorderPresentation.ts`, `useCheckoutFlow.test.tsx`, `AdminCreditAccountDetailPage.test.tsx`, `savedListsPresentation.ts`, `StandingOrdersPage.tsx`, `CartSheet.test.tsx`, `web/package.json`, `usePaymentSubmission.ts`?**
+  _High betweenness centrality (0.023) - this node is a cross-community bridge._
+- **Should `ref_node_assert` be split into smaller, more focused modules?**
+  _Cohesion score 0.02311809969889595 - nodes in this community are weakly interconnected._
 
 ### Low-confidence Hints
 _AMBIGUOUS edges — the extractor was unsure. Verify before acting on these._
 
 - **What is the exact relationship between `Plan output sections (Scenarios, Existing coverage, Files to read, Risks, Approach)` and `workshop/e2e-plan.md output`?**
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
-- **What is the exact relationship between `Browser tooling: Playwright CLI, never MCP` and `Static inspection only constraint`?**
+- **What is the exact relationship between `Static inspection only constraint` and `Browser tooling: Playwright CLI, never MCP`?**
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._

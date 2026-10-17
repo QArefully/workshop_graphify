@@ -1,5 +1,54 @@
 {
-  "generated_at": "2026-10-13T16:21:07.160153+00:00",
-  "nodes": {},
+  "generated_at": "2026-10-17T05:29:28.580972+00:00",
+  "nodes": {
+    "apps_api_src_db_unitofwork": {
+      "code_fingerprint": "27bac5a611b88f51d387959f27e88334b29e3f4c7b66086a3e951f3b595a3bba",
+      "label": "unitOfWork.ts",
+      "last": "2026-10-13T16:21:53.776744+00:00",
+      "provenance": [
+        {
+          "date": "2026-10-13T16:21:53.776744+00:00",
+          "outcome": "useful",
+          "q": "Why does better-sqlite3 connect API DB Test Harness to ~35 API communities - is the DB coupled directly into services rather than through repositories?"
+        }
+      ],
+      "score": 0.921316643,
+      "source_file": "apps/api/src/db/unitOfWork.ts",
+      "status": "tentative",
+      "uses": 1
+    },
+    "apps_api_src_features_countryprofile_countryprofileservice": {
+      "code_fingerprint": "e873141a9350bb9068e76a90375f9b0bb22a39df1cb0548d9d49a491df55bacd",
+      "label": "countryProfileService.ts",
+      "last": "2026-10-13T16:21:53.776744+00:00",
+      "provenance": [
+        {
+          "date": "2026-10-13T16:21:53.776744+00:00",
+          "outcome": "useful",
+          "q": "Why does better-sqlite3 connect API DB Test Harness to ~35 API communities - is the DB coupled directly into services rather than through repositories?"
+        }
+      ],
+      "score": 0.921316643,
+      "source_file": "apps/api/src/features/countryProfile/countryProfileService.ts",
+      "status": "tentative",
+      "uses": 1
+    },
+    "apps_api_src_features_payments_adminrefundservice": {
+      "code_fingerprint": "e3e154a466d2360e421e851eb931204a3c4e8ea8f3aca67ea5f178a34bfcacd9",
+      "label": "adminRefundService.ts",
+      "last": "2026-10-13T16:21:53.776744+00:00",
+      "provenance": [
+        {
+          "date": "2026-10-13T16:21:53.776744+00:00",
+          "outcome": "useful",
+          "q": "Why does better-sqlite3 connect API DB Test Harness to ~35 API communities - is the DB coupled directly into services rather than through repositories?"
+        }
+      ],
+      "score": 0.921316643,
+      "source_file": "apps/api/src/features/payments/adminRefundService.ts",
+      "status": "tentative",
+      "uses": 1
+    }
+  },
   "version": 1
 }

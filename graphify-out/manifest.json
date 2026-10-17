@@ -6102,8 +6102,8 @@
     "semantic_hash": "bcdaf4f3136639a223047de48645534c"
   },
   "workshop/prompt.md": {
-    "mtime": 1791662338.5601552,
-    "seen": 1791908416.7812083,
+    "mtime": 1792181048.7857666,
+    "seen": 1792214967.7685013,
     "ast_hash": "f44a7486bad5b60a29defa61e74a00c9",
     "semantic_hash": "f44a7486bad5b60a29defa61e74a00c9"
   },
@@ -6112,5 +6112,23 @@
     "seen": 1791908416.7812092,
     "ast_hash": "ff6195fa409c04700253ff7aa8dfa094",
     "semantic_hash": "ff6195fa409c04700253ff7aa8dfa094"
+  },
+  ".codex/hooks.json": {
+    "mtime": 1791908765.7310414,
+    "seen": 1792214967.7661078,
+    "ast_hash": "c8d429c16ec17e5fa8df82b852d01058",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1791908765.6797924,
+    "seen": 1792214967.768487,
+    "ast_hash": "f36539ecc9af68f33ebd72770ce4a19e",
+    "semantic_hash": ""
+  },
+  "graphify-out/memory/query_20261013_162153_5928452c_why_does_better_sqlite3_connect_api_db_test_harnes.md": {
+    "mtime": 1791908513.7847633,
+    "seen": 1792214967.7684987,
+    "ast_hash": "561c1c84362f10c55ce7852d6e4b7c0e",
+    "semantic_hash": ""
   }
 }
